@@ -1,0 +1,120 @@
+
+<mjml>
+  <mj-head>
+    <mj-title>JPO du 30 janvier 2025 Ecosup Assurance</mj-title>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&amp;display=swap"></mj-font>
+    <mj-raw>
+      <meta name='color-scheme' content='light'/>
+      <meta name='supported-color-schemes' content='light'/>
+      <meta name="format-detection" content="telephone=no"/>
+      <meta name="format-detection" content="date=no"/>
+      <meta name="format-detection" content="address=no"/>
+      <meta name="format-detection" content="email=no"/>
+    </mj-raw>
+    <mj-attributes>
+      <mj-all font-family="Roboto, Arial, Helvetica,sans serif"/>
+      <mj-class name="T+3" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="36px" line-height="36px" font-weight="900"/>
+      <mj-class name="T+2" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="24px" line-height="28px" font-weight="700"/>
+      <mj-class name="T+1" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="16px" line-height="20px" font-weight="700"/>
+      <mj-class name="T" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="16px" line-height="20px" font-weight="400"/>
+      <mj-class name="T-1" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="13px" line-height="15px" font-weight="400"/>
+      <mj-class name="T-2" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12px" line-height="16px" font-weight="400"/>
+      <mj-class name="L" align="left" border-style="solid" border-width="0.75px" width="80px" padding="10px 0"></mj-class>
+      <mj-class name="cT+1" color="#14141f" border-color="#14141f"/>
+      <mj-class name="cT+0" color="#626262"/>
+      <mj-class name="c-0" color="#684092"/>
+      <mj-class name="bg-0" background-color="#684092"/>
+      <mj-class name="c+1" color="#ba4995"/>
+      <mj-class name="bg+1" background-color="#ba4995"/>
+    </mj-attributes>
+    <mj-breakpoint width="480px"></mj-breakpoint>
+    <mj-style>
+      .c11{
+          color: #ba4995 !important;
+      }
+      .cT00{
+          color: #626262 !important;
+      }
+      
+      @media(max-width:480px){
+          .m-footer div{
+              text-align: center !important;
+              width: 100% !important;
+          }
+          .m-footer1 {
+              text-align: center !important;
+              width: 100% !important;
+              padding-top:10px !important;
+          }
+          .stop{
+              display: none !important;
+          }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#efefef">
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-text align="center">Voir la version en ligne | Se desincrire de la liste de diffusion</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#002467" padding="0">
+      <mj-column>
+        <mj-spacer height="20px" container-background-color="#ffffff"></mj-spacer>
+        <mj-image padding="25px 20px 0 20px" align="left" width="153px" src="https://ext.lb-lg.fr/CRPA/images/logo.png" alt=""></mj-image>
+        <mj-text padding="25px 20px 0 20px" mj-class="cJ" font-family="Museo, Arial" font-style="normal" font-size="32px" font-weight="700" line-height="100%">Boostez votre trésorerie dès aujourd'hui !</mj-text>
+        <mj-text padding="10px 20px 0 20px" font-family="Museo, Arial" font-style="normal" font-size="16px" font-weight="500" line-height="120%" color="#ffffff">Nous récupérons chaque année des milliers d'impayés de toute nature.</mj-text>
+        <mj-text padding="0px 20px" font-family="Museo, Arial" font-style="normal" font-size="16px" font-weight="500" line-height="120%" color="#ffffff">Notre société vous propose les solutions adaptées à vos besoins.</mj-text>
+        <mj-button padding="20px 20px 25px 20px" inner-padding="16px" mj-class="cB" background-color="#ffd400" border-radius="0" font-family="Museo, Arial" font-style="normal" font-size="14px" font-weight="700" line-height="120%" text-transform="uppercase">Confiez nous le recouvrement de vos factures impayées</mj-button>
+      </mj-column>
+      <mj-column>
+        <mj-image padding="0" border="0" fluid-on-mobile="true" src="https://ext.lb-lg.fr/CRPA/images/banner2.jpg" alt=""></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="30px 20px 0 20px">
+      <mj-column background-color="#ffd400" width="31.111111%" vertical-align="middle">
+        <mj-image padding="0" border="0" fluid-on-mobile="true" src="https://ext.lb-lg.fr/CRPA/images/img11.jpg" alt=""></mj-image>
+        <mj-text align="center" padding="23px 0" mj-class="cB" font-family="Museo, Arial" font-style="normal" font-size="16px" font-weight="700" line-height="21px">Recouvrement de créances</mj-text>
+      </mj-column>
+      <mj-column width="20px" vertical-align="middle">
+        <mj-spacer></mj-spacer>
+      </mj-column>
+      <mj-column background-color="#ffd400" width="31.111111%" vertical-align="middle">
+        <mj-image padding="0" border="0" fluid-on-mobile="true" src="https://ext.lb-lg.fr/CRPA/images/img12.jpg" alt=""></mj-image>
+        <mj-text align="center" padding="12px 10px" mj-class="cB" font-family="Museo, Arial" font-style="normal" font-size="16px" font-weight="700" line-height="21px">Relances précontentieuses à votre nom</mj-text>
+      </mj-column>
+      <mj-column width="20px" vertical-align="middle">
+        <mj-spacer></mj-spacer>
+      </mj-column>
+      <mj-column width="31.111111%" vertical-align="middle">
+        <mj-image padding="0" border="0" width="40px" src="https://ext.lb-lg.fr/CRPA/images/p5.png" alt=""></mj-image>
+        <mj-text align="center" padding="8px 10px 20px 10px" mj-class="cB" font-family="Museo, Arial" font-style="normal" font-size="16px" font-weight="700" line-height="21px">Visite à domicile</mj-text>
+        <mj-image padding="0" border="0" width="40px" src="https://ext.lb-lg.fr/CRPA/images/p6.png" alt=""></mj-image>
+        <mj-text align="center" padding="8px 10px 0 10px" mj-class="cB" font-family="Museo, Arial" font-style="normal" font-size="16px" font-weight="700" line-height="21px">Procédure amiable et judiciaire</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="30px 20px 0 20px">
+      <mj-column>
+        <mj-text align="center" padding="0" mj-class="cB" font-family="Museo, Arial" font-style="normal" font-size="18px" font-weight="400" line-height="21px">Pour plus d'informations, contactez-nous dès maintenant !</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="20px 20px 0 20px">
+      <mj-column width="244px">
+        <mj-button align="center" padding="0 0 20px 0" border="2px solid #002467" border-radius="0" inner-padding="14px 20px" background-color="transparent" mj-class="cB" font-family="Museo, Arial" font-style="normal" font-size="16px" font-weight="700" line-height="120%"><img width="11px" src="https://i.ibb.co/1Zsn2N4/tel.png"/>&nbsp; 03 81 88 22 36</mj-button>
+      </mj-column>
+      <mj-column width="244px">
+        <mj-button align="center" padding="0 0 20px 0" border="2px solid #ffd400" border-radius="0" inner-padding="14px 20px" background-color="#ffd400" mj-class="cB" font-family="Museo, Arial" font-style="normal" font-size="16px" font-weight="700" line-height="120%"><img width="14px" src="https://i.ibb.co/Jz4W4fN/envelope.png"/>&nbsp; contact@crpa.fr</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#002467" padding="0 20px">
+      <mj-column>
+        <mj-text align="center" padding="14px 0" font-family="Museo, Arial" font-style="normal" font-size="16px" font-weight="700" line-height="120%" color="#ffffff" text-transform="uppercase" letter-spacing="2px">www.crpa.fr</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-text align="center">Se désinscrire de la liste de diffusion</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
