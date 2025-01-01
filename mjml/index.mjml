@@ -127,10 +127,10 @@
     </mj-section>
     <mj-section background-color="#ffffff" padding="20px 20px 0 20px">
       <mj-column width="244px">
-        <mj-button align="center" padding="0 0 20px 0" border="2px solid #002467" border-radius="0" inner-padding="14px 20px" background-color="transparent" mj-class="T+1 c+1"><img width="11px" src="https://i.ibb.co/1Zsn2N4/tel.png"/>&nbsp;Où nous trouver</mj-button>
+        <mj-button align="center" padding="0 0 20px 0" border="2px solid #ba4995" border-radius="3px" inner-padding="14px 20px" background-color="transparent" mj-class="T+1 c+1"><img width="11px" src="https://i.ibb.co/1Zsn2N4/tel.png"/>&nbsp;nous trouver</mj-button>
       </mj-column>
       <mj-column width="244px">
-        <mj-button align="center" padding="0 0 20px 0" border-radius="0" inner-padding="16px 22px" mj-class="T+1 bg+1"><img width="14px" src="https://i.ibb.co/Jz4W4fN/envelope.png"/>&nbsp;réserver</mj-button>
+        <mj-button align="center" padding="0 0 20px 0" border-radius="3px" inner-padding="16px 22px" mj-class="T+1 bg+1"><img width="14px" src="https://i.ibb.co/Jz4W4fN/envelope.png"/>&nbsp;ajouter à son agenda</mj-button>
       </mj-column>
     </mj-section>
     <mj-section mj-class="bg+1" padding="0 20px">
