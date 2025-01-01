@@ -55,13 +55,13 @@
   <mj-body background-color="#efefef" width="650px">
     <mj-section background-color="#ffffff">
       <mj-column>
-        <mj-text align="center">Voir la version en ligne | Se desincrire de la liste de diffusion</mj-text>
+        <mj-text align="center"><a style="color:#626262;font-size:12px;font-weight:700" href="{{ mirror}}">Voir la version en ligne</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a style="color:#626262;font-size:12px;font-weight:700;" href="{{ unsubscribe }}">Se désinscrire de la liste de diffusion</a></mj-text>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#002467" padding="0">
+    <mj-section background-color="#684092" padding="0">
       <mj-column>
         <mj-spacer height="20px" container-background-color="#ffffff"></mj-spacer>
-        <mj-image padding="25px 20px 0 20px" align="left" width="153px" src="https://i.ibb.co/7r1nj2K/logo-EAssurance.png" alt=""></mj-image>
+        <mj-image padding="25px 20px 0 20px" align="left" width="153px" src="https://i.ibb.co/7r1nj2K/logo-EAssurance.png" alt="logo Ecosup-assurance"></mj-image>
         <mj-text padding="25px 20px 0 20px" mj-class="c+1" font-family="Museo, Arial" font-style="normal" font-size="32px" font-weight="700" line-height="100%" letter-spacing="-1px">Ecosup Assurance Ouvre ses Portes !</mj-text>
         <mj-text padding="10px 20px 0 20px" font-family="Museo, Arial" font-style="normal" font-size="16px" font-weight="500" line-height="120%" color="#ffffff">Nous récupérons chaque année des milliers d'impayés de toute nature.</mj-text>
         <mj-text padding="10px 20px 0 20px" font-family="Museo, Arial" font-style="normal" font-size="16px" font-weight="500" line-height="120%" color="#ffffff">Nous récupérons chaque année des milliers d'impayés de toute nature.</mj-text>
@@ -133,7 +133,7 @@
         <mj-button align="center" padding="0 0 20px 0" border-radius="3px" inner-padding="16px 22px" mj-class="T+1 bg+1"><img width="14px" src="https://i.ibb.co/Jz4W4fN/envelope.png"/>&nbsp;ajouter à son agenda</mj-button>
       </mj-column>
     </mj-section>
-    <mj-section mj-class="bg+1" padding="0 20px">
+    <mj-section mj-class="bg-0" padding="0 20px">
       <mj-column>
         <mj-text align="center" padding="14px 0" font-family="Museo, Arial" font-style="normal" font-size="16px" font-weight="700" line-height="120%" color="#ffffff" text-transform="uppercase" letter-spacing="2px">www.ecosup-assurance.fr</mj-text>
       </mj-column>
@@ -208,6 +208,18 @@
           <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/8r9FGG5/Logo-Assurance01.jpg" alt="logo couleur Diot groupe Diot Siaci"/>
         </mj-column>
       </mj-group>
+    </mj-section>
+    <mj-section padding="20px 32px">
+      <mj-column width="320px">
+        <mj-image width="140px" padding="0" border="none" align="center" target="_blank" src="https://i.ibb.co/F0kfF0m/ECOSUPCAMPUS012024.png" href="https://ecosup-campus.com" alt="Logo Ecosup Campus"/>
+        <mj-text padding="0" align="center" mj-class="cT+0" font-size="12px" font-weight="300" line-height="16px">17 rue Charles et Albert Roussel</mj-text>
+        <mj-text padding="0" align="center" mj-class="cT+0" font-size="12px" font-weight="300" line-height="16px" text-transform="uppercase">59200 Tourcoing</mj-text>
+        <mj-text padding="0" align="center" mj-class="cT+0" font-size="12px" font-weight="700" line-height="16px"><a style="text-decoration:none;color:#626262;" href="tel:0320700606">Tél 03.20.70.06.06</a>               </mj-text>
+        <mj-text padding="0 0 25px 0" align="center" mj-class="cT+0" font-size="12px" font-weight="300" line-height="16px"><a style="text-decoration:none;color:#626262;" href="mailto:contact@ecosup-campus.fr">contact@ecosup-campus.fr</a></mj-text>
+        <mj-text padding="0" align="center" font-size="12px" font-weight="300" line-height="16px"><a style="color:#626262;font-size:12px;font-weight:700" href="{{ mirror}}">Voir la version en ligne</a>           </mj-text>
+        <mj-text padding="0" align="center" mj-class="cT+0" font-size="12px" font-weight="300" line-height="16px">Pour être sûr(e) de recevoir nos communications, ajoutez <a style="text-decoration:none;color:#626262;" href="mailto:contact@ecosup-campus.fr">contact@ecosup-campus.fr</a> dans votre carnet d'adresses.</mj-text>
+        <mj-text padding="0" align="center" font-size="12px" font-weight="300" line-height="16px"><a style="color:#626262;font-size:12px;font-weight:700;" href="{{ unsubscribe }}">Se désinscrire de la liste de diffusion</a></mj-text>
+      </mj-column>
     </mj-section>
   </mj-body>
 </mjml>
