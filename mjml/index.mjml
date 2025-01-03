@@ -72,12 +72,11 @@
         <mj-text padding="2px 20px" mj-class="T400" color="#ffffff">- rencontre avec les responsables pédagogiques et les intervenants professionnels</mj-text>
         <mj-text padding="2px 20px" mj-class="T400" color="#ffffff">- échange avec les étudiants en formation</mj-text>
         <mj-text padding="2px 20px" mj-class="T400" color="#ffffff">- élaboration des plans de financements</mj-text>
-        <mj-button padding="20px" mj-class="T700 bg+1" text-transform="uppercase">Nocturne Portes Ouvertes jeudi 30 Janvier de 17h à 19h</mj-button>
+        <mj-button padding="20px" mj-class="T700 bg+1"><span style="text-transform:uppercase;">Nocturne Portes Ouvertes</span> jeudi 30 Janvier de 17h à 19h</mj-button>
         <mj-spacer height="20px" container-background-color="#ffffff"></mj-spacer>
       </mj-column>
       <mj-column>
         <mj-image padding="0" border="0" fluid-on-mobile="true" src="https://i.ibb.co/85Fkg0x/affiche-Jpo23112024.jpg" alt="affiche de la jpo du jeudi 30 janvier 2025"></mj-image>
-        <mj-spacer height="25px"></mj-spacer>
         <mj-image padding="0" border="0" fluid-on-mobile="true" src="https://i.ibb.co/zVvfVbL/jeuneT.jpg" alt="jeunes hommes et jeunes filles en dynamique"></mj-image>
       </mj-column>
     </mj-section>
@@ -136,18 +135,18 @@
     </mj-section>
     <mj-section background-color="#ffffff" padding="20px 20px 0 20px">
       <mj-column width="244px">
-        <mj-button align="center" vrtical-align="middle" padding="0 0 20px 0" border="2px solid #ba4995" border-radius="3px" inner-padding="14px 20px" background-color="transparent" mj-class="T700 c+1" href="#"><img width="14px" style="vertical-align:middle;" src="https://i.ibb.co/chR6hSf/iconMap.png" href="#"/>&nbsp;nous trouver</mj-button>
+        <mj-button align="center" vertical-align="middle" padding="0 0 20px 0" border="2px solid #ba4995" border-radius="3px" inner-padding="14px 20px" background-color="transparent" mj-class="T700 c+1" href="#"><img width="18px" style="padding:0;border:0;vertical-align:middle;" src="https://i.ibb.co/chR6hSf/iconMap.png" href="#"/>&nbsp;&nbsp;nous trouver</mj-button>
       </mj-column>
       <mj-column width="244px">
-        <mj-button align="center" vertical-align="middle" padding="0 0 20px 0" border-radius="3px" inner-padding="16px 22px" mj-class="T700 bg+1" href="#"><img width="14px" style="vertical-align:middle;" src="https://i.ibb.co/yWL3PNW/icon-Calendrier.png" href="#"/>&nbsp;ajouter à son agenda</mj-button>
+        <mj-button align="center" vertical-align="middle" padding="0 0 20px 0" border-radius="3px" inner-padding="16px 22px" mj-class="T700 bg+1" href="#"><img width="18px" style="padding:0;border:0;vertical-align:middle;" src="https://i.ibb.co/yWL3PNW/icon-Calendrier.png" href="#"/>&nbsp;&nbsp;ajouter à son agenda</mj-button>
       </mj-column>
     </mj-section>
     <mj-section mj-class="bg-0" padding="0 20px">
       <mj-column>
-        <mj-text align="center" padding="14px 0" mj-class="T+2" color="#ffffff" letter-spacing="2px">www.ecosup-assurance.fr</mj-text>
+        <mj-text align="center" padding="14px 0" mj-class="T+2" color="#ffffff" letter-spacing="2px"><a style="text-decoration:none;color:#ffffff;" href="https://ecosup-assurance.fr" target="_blank">www.ecosup-assurance.fr</a></mj-text>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#bfbfbf" padding="10px 0px">
+    <mj-section background-color="#bfbfbf" padding="10px 20px">
       <mj-group width="450px">
         <mj-column width="33.333333%" vertical-align="middle">
           <mj-image padding="0" border="0" width="120px" align="center" src="https://i.ibb.co/HGs67PM/lg-AGEA112024.png" alt="logo AGEA (Agent Général d'Assurance)"/>
