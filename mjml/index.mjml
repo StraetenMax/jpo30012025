@@ -66,13 +66,12 @@
         <mj-spacer height="20px" container-background-color="#ffffff"></mj-spacer>
         <mj-image padding="25px 20px 0 20px" align="left" width="153px" src="https://i.ibb.co/7r1nj2K/logo-EAssurance.png" alt="logo Ecosup-assurance"></mj-image>
         <mj-text padding="10px 20px 0 20px" mj-class="c+1 T+3" letter-spacing="-1px">Ecosup Assurance vous ouvre ses Portes !</mj-text>
-        <mj-text padding="10px 20px 0 20px" mj-class="T400" color="#ffffff">Nous récupérons chaque année des milliers d'impayés de toute nature.</mj-text>
-        <mj-text padding="10px 20px 0 20px" mj-class="T400" color="#ffffff">Nous récupérons chaque année des milliers d'impayés de toute nature.</mj-text>
-        <mj-text padding="2px 20px" mj-class="T400" color="#ffffff">- visite guidée de notre établissement</mj-text>
-        <mj-text padding="2px 20px" mj-class="T400" color="#ffffff">- rencontre avec les responsables pédagogiques et les intervenants professionnels</mj-text>
-        <mj-text padding="2px 20px" mj-class="T400" color="#ffffff">- échange avec les étudiants en formation</mj-text>
-        <mj-text padding="2px 20px" mj-class="T400" color="#ffffff">- élaboration des plans de financements</mj-text>
-        <mj-button padding="20px" mj-class="T700 bg+1"><span style="text-transform:uppercase;">Nocturne Portes Ouvertes</span> jeudi 30 Janvier de 17h à 19h</mj-button>
+        <mj-text padding="10px 20px 0 20px" mj-class="T400" color="#ffffff">{{ contact.PRENOM }}, après nos échanges sur le salon de l'Étudiant à Lille, nous vous invitons à découvrir notre campus :</mj-text>
+        <mj-text padding="2px 20px" mj-class="T400" color="#ffffff">- Visite guidée de notre établissement</mj-text>
+        <mj-text padding="2px 20px" mj-class="T400" color="#ffffff">- Rencontre avec les responsables pédagogiques et les intervenants professionnels</mj-text>
+        <mj-text padding="2px 20px" mj-class="T400" color="#ffffff">- Échange avec les étudiants en formation</mj-text>
+        <mj-text padding="2px 20px" mj-class="T400" color="#ffffff">- Élaboration du plan de financement</mj-text>
+        <mj-button padding="20px 20px 25px 20px" mj-class="T700 bg+1"><span style="text-transform:uppercase;">Nocturne Portes Ouvertes</span> jeudi 30 Janvier de 17h à 19h</mj-button>
         <mj-spacer height="20px" container-background-color="#ffffff"></mj-spacer>
       </mj-column>
       <mj-column>
