@@ -25,7 +25,8 @@
       <mj-class name="cT+0" color="#626262"/>
       <mj-class name="c-0" color="#684092"/>
       <mj-class name="bg-0" background-color="#58367c"/>
-      <mj-class name="c+1" color="#ce7eb3"/>
+      <mj-class name="c+11" color="#ce7eb3"/>
+      <mj-class name="c+1" color="#ba4995"/>
       <mj-class name="bg+1" background-color="#ba4995"/>
       <mj-class name="bg+11" background-color="#ce7eb3"/>
     </mj-attributes>
@@ -79,7 +80,7 @@
     </mj-section>
     <mj-section background-color="#ffffff" padding="30px 20px 20px">
       <mj-column mj-class="bg+11" width="31.111111%" vertical-align="top">
-        <mj-image padding="0" border="0" fluid-on-mobile="true" src="https://ext.lb-lg.fr/CRPA/images/img11.jpg" alt=""></mj-image>
+        <mj-image padding="0" border="0" fluid-on-mobile="true" src="https://i.ibb.co/XS66p55/bts-Assurance.jpg" alt="formation BTS Assurance"></mj-image>
         <mj-text align="center" padding="12px 10px 0 10px" mj-class="T700 cT+1" text-transform="uppercase">Bts </mj-text>
         <mj-text align="center" padding="0px 10px 52px 10px" mj-class="T400 cT+1">Assurance</mj-text>
       </mj-column>
@@ -87,7 +88,7 @@
         <mj-spacer></mj-spacer>
       </mj-column>
       <mj-column mj-class="bg+11" width="31.111111%" vertical-align="top">
-        <mj-image padding="0" border="0" fluid-on-mobile="true" src="https://ext.lb-lg.fr/CRPA/images/img12.jpg" alt=""></mj-image>
+        <mj-image padding="0" border="0" fluid-on-mobile="true" src="https://i.ibb.co/C09Qzq6/bachelor-Assurance.jpg" alt="formation Bachelor Chargé(e) de Clientèles en Assurance et Banque"></mj-image>
         <mj-text align="center" padding="12px 10px 0 10px" mj-class="T700 cT+1" text-transform="uppercase">Bachelor</mj-text>
         <mj-text align="center" padding="0 10px 12px 10px" mj-class="T400 cT+1">Chargé(e) de clientèles en Assurance et Banque</mj-text>
       </mj-column>
@@ -95,7 +96,7 @@
         <mj-spacer></mj-spacer>
       </mj-column>
       <mj-column mj-class="bg+11" width="31.111111%" vertical-align="top">
-        <mj-image padding="0" border="0" fluid-on-mobile="true" src="https://ext.lb-lg.fr/CRPA/images/img12.jpg" alt=""></mj-image>
+        <mj-image padding="0" border="0" fluid-on-mobile="true" src="https://i.ibb.co/kcV2JXB/mastere-Assurance.jpg" alt="formation Mastère Expert(e) en Ingénierie Patrimoniale"></mj-image>
         <mj-text align="center" padding="12px 10px 0 10px" mj-class="T700 cT+1" text-transform="uppercase">Mastère</mj-text>
         <mj-text align="center" padding="0 10px 32px 10px" mj-class="T400 cT+1">Expert(e) en Ingénierie Patrimoniale</mj-text>
       </mj-column>
@@ -129,10 +130,10 @@
     </mj-section>
     <mj-section background-color="#ffffff" padding="20px 20px 0 20px">
       <mj-column width="244px">
-        <mj-button align="center" padding="0 0 20px 0" border="2px solid #ba4995" border-radius="3px" inner-padding="14px 20px" background-color="transparent" mj-class="T700 c+1"><img width="11px" src="https://i.ibb.co/1Zsn2N4/tel.png"/>&nbsp;nous trouver</mj-button>
+        <mj-button align="center" vrtical-align="middle" padding="0 0 20px 0" border="2px solid #ba4995" border-radius="3px" inner-padding="14px 20px" background-color="transparent" mj-class="T700 c+1" href="#"><img width="14px" style="vertical-align:middle;" src="https://i.ibb.co/chR6hSf/iconMap.png" href="#"/>&nbsp;nous trouver</mj-button>
       </mj-column>
       <mj-column width="244px">
-        <mj-button align="center" padding="0 0 20px 0" border-radius="3px" inner-padding="16px 22px" mj-class="T700 bg+1"><img width="14px" src="https://i.ibb.co/Jz4W4fN/envelope.png"/>&nbsp;ajouter à son agenda</mj-button>
+        <mj-button align="center" vertical-align="middle" padding="0 0 20px 0" border-radius="3px" inner-padding="16px 22px" mj-class="T700 bg+1" href="#"><img width="14px" style="vertical-align:middle;" src="https://i.ibb.co/yWL3PNW/icon-Calendrier.png" href="#"/>&nbsp;ajouter à son agenda</mj-button>
       </mj-column>
     </mj-section>
     <mj-section mj-class="bg-0" padding="0 20px">
