@@ -3,6 +3,7 @@ mjml
     mj-head
         mj-title JPO du 30 janvier 2025 Ecosup Assurance
         mj-font(name='Roboto' href='https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap')
+        mj-font(name="fontAwesome" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css")/
         mj-raw.
             <meta name='color-scheme' content='light'/>
             <meta name='supported-color-schemes' content='light'/>
@@ -32,23 +33,21 @@ mjml
             mj-class(name="bg+11" background-color="#ce7eb3")/
         mj-breakpoint(width="480px")
         mj-style.
-            .c11{
-                color: #ba4995 !important;
-            }
-            .cT00{
-                color: #626262 !important;
-            }
+            .bg-rollover-01:hover td, .bg-rollover-01:hover a{
+                background-color: #58367c !important;
+                color: #ffffff !important;
+                border: 1px solid #58367c !important;
+           }
+
+           .c-rollover:hover td, .c-rollover:hover a{
+                color: #ffffff !important;
+           }
+
+            .bg-rollover-02:hover td, .bg-rollover-02:hover a{
+                background-color: #58367c !important;
+           }
 
             @media(max-width:480px){
-                .m-footer div{
-                    text-align: center !important;
-                    width: 100% !important;
-                }
-                .m-footer1 {
-                    text-align: center !important;
-                    width: 100% !important;
-                    padding-top:10px !important;
-                }
                 .stop{
                     display: none !important;
                 }

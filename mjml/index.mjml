@@ -3,6 +3,7 @@
   <mj-head>
     <mj-title>JPO du 30 janvier 2025 Ecosup Assurance</mj-title>
     <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&amp;display=swap"></mj-font>
+    <mj-font name="fontAwesome" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
     <mj-raw>
       <meta name='color-scheme' content='light'/>
       <meta name='supported-color-schemes' content='light'/>
@@ -32,27 +33,25 @@
     </mj-attributes>
     <mj-breakpoint width="480px"></mj-breakpoint>
     <mj-style>
-      .c11{
-          color: #ba4995 !important;
-      }
-      .cT00{
-          color: #626262 !important;
+       .bg-rollover-01:hover td, .bg-rollover-01:hover a{
+           background-color: #58367c !important;
+           color: #ffffff !important;
+           border: 1px solid #58367c !important;
       }
       
-      @media(max-width:480px){
-          .m-footer div{
-              text-align: center !important;
-              width: 100% !important;
-          }
-          .m-footer1 {
-              text-align: center !important;
-              width: 100% !important;
-              padding-top:10px !important;
-          }
-          .stop{
-              display: none !important;
-          }
+      .c-rollover:hover td, .c-rollover:hover a{
+           color: #ffffff !important;
       }
+      
+       .bg-rollover-02:hover td, .bg-rollover-02:hover a{
+           background-color: #58367c !important;
+      }
+      
+       @media(max-width:480px){
+           .stop{
+               display: none !important;
+           }
+       }
     </mj-style>
   </mj-head>
   <mj-body background-color="#efefef" width="650px">
@@ -69,7 +68,7 @@
         <mj-text padding="10px 20px 0 20px" mj-class="T400" color="#ffffff">{{ contact.PRENOM }}, après nos échanges sur le salon de l'Étudiant à Lille, nous vous invitons à découvrir notre campus :</mj-text>
         <mj-text padding="2px 20px" mj-class="T400" color="#ffffff">- Visite guidée de notre établissement</mj-text>
         <mj-text padding="2px 20px" mj-class="T400" color="#ffffff">- Rencontre avec les responsables pédagogiques et les intervenants professionnels</mj-text>
-        <mj-text padding="2px 20px" mj-class="T400" color="#ffffff">- Échange avec les étudiants en formation</mj-text>
+        <mj-text padding="2px 20px" mj-class="T400" color="#ffffff">- Échange avec les étudiants de la promotion</mj-text>
         <mj-text padding="2px 20px" mj-class="T400" color="#ffffff">- Élaboration du plan de financement</mj-text>
         <mj-button padding="20px 20px 25px 20px" mj-class="T700 bg+1"><span style="text-transform:uppercase;">Nocturne Portes Ouvertes</span> jeudi 30 Janvier de 17h à 19h</mj-button>
         <mj-spacer height="20px" container-background-color="#ffffff"></mj-spacer>
@@ -134,10 +133,10 @@
     </mj-section>
     <mj-section background-color="#ffffff" padding="20px 20px 0 20px">
       <mj-column width="244px">
-        <mj-button align="center" vertical-align="middle" padding="0 0 20px 0" border="2px solid #ba4995" border-radius="3px" inner-padding="14px 20px" background-color="transparent" mj-class="T700 c+1" href="#"><img width="18px" style="padding:0;border:0;vertical-align:middle;" src="https://i.ibb.co/chR6hSf/iconMap.png" href="#"/>&nbsp;&nbsp;nous trouver</mj-button>
+        <mj-button align="center" vertical-align="middle" padding="0 0 20px 0" border="2px solid #ba4995" border-radius="3px" inner-padding="14px 20px" background-color="transparent" css-class="bg-rollover-01" mj-class="T700 c+1" href="https://www.google.fr/maps/dir/50.6824756,3.1708769/17+Pl.+Charles+et+Albert+Roussel,+59200+Tourcoing/"><i class="fa-regular fa-clock c-rollover" style="font-family:FontAwesome;color:#ba4995;font-size:16px;vertical-align:middle"></i> &nbsp;&nbsp;nous trouver</mj-button>
       </mj-column>
       <mj-column width="244px">
-        <mj-button align="center" vertical-align="middle" padding="0 0 20px 0" border-radius="3px" inner-padding="16px 22px" mj-class="T700 bg+1" href="#"><img width="18px" style="padding:0;border:0;vertical-align:middle;" src="https://i.ibb.co/yWL3PNW/icon-Calendrier.png" href="#"/>&nbsp;&nbsp;ajouter à son agenda</mj-button>
+        <mj-button align="center" vertical-align="middle" padding="0 0 20px 0" border-radius="3px" inner-padding="16px 22px" css-class="bg-rollover-02" mj-class="T700 bg+1" href="#"><img width="18px" style="padding:0;border:0;vertical-align:middle;" src="https://i.ibb.co/yWL3PNW/icon-Calendrier.png" href="#"/>&nbsp;&nbsp;ajouter à son agenda</mj-button>
       </mj-column>
     </mj-section>
     <mj-section mj-class="bg-0" padding="0 20px">
