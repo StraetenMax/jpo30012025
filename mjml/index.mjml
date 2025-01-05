@@ -1,8 +1,9 @@
 
 <mjml>
   <mj-head>
-    <mj-title>JPO du 14 décembre 2024 Ecosup</mj-title>
+    <mj-title>JPO du 30 janvier 2025 Ecosup Commerce</mj-title>
     <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&amp;display=swap"></mj-font>
+    <mj-font name="fontAwesome" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
     <mj-raw>
       <meta name='color-scheme' content='light'/>
       <meta name='supported-color-schemes' content='light'/>
@@ -13,12 +14,13 @@
     </mj-raw>
     <mj-attributes>
       <mj-all font-family="Roboto, Arial, Helvetica,sans serif"/>
-      <mj-class name="T+3" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="36px" line-height="36px" font-weight="900"/>
-      <mj-class name="T+2" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="24px" line-height="28px" font-weight="700"/>
-      <mj-class name="T+1" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="16px" line-height="20px" font-weight="700"/>
-      <mj-class name="T" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="16px" line-height="20px" font-weight="400"/>
-      <mj-class name="T-1" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="13px" line-height="15px" font-weight="400"/>
-      <mj-class name="T-2" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12px" line-height="16px" font-weight="400"/>
+      <mj-class name="T+3" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="36px" line-height="36px" font-weight="900"/>
+      <mj-class name="T+2" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="24px" line-height="28px" font-weight="700"/>
+      <mj-class name="T700" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px" font-weight="700"/>
+      <mj-class name="T500" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px" font-weight="500"/>
+      <mj-class name="T400" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px" font-weight="400"/>
+      <mj-class name="T-1" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="13px" line-height="17px" font-weight="400"/>
+      <mj-class name="T-2" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="10px" line-height="12px" font-weight="300"/>
       <mj-class name="L" align="left" border-style="solid" border-width="0.75px" width="80px" padding="10px 0"/>
       <mj-class name="cT+1" color="#14141f" border-color="#14141f"/>
       <mj-class name="cT+0" color="#626262"/>
@@ -29,23 +31,21 @@
     </mj-attributes>
     <mj-breakpoint width="480px"></mj-breakpoint>
     <mj-style>
-      .c11{
-          color: #ec6608 !important;
+      .bg-rollover-01:hover td, .bg-rollover-01:hover a{
+          background-color: #AA3E17 !important;
+          color: #ffffff !important;
+          border: 1px solid #AA3E17 !important;
       }
-      .cT00{
-          color: #626262 !important;
+      
+      .text-rollover:hover td, .text-rollover:hover a{
+          color: #ffffff !important;
+      }
+      
+      .bg-rollover-02:hover td, .bg-rollover-02:hover a{
+          background-color: #AA3E17 !important;
       }
       
       @media(max-width:480px){
-          .m-footer div{
-              text-align: center !important;
-              width: 100% !important;
-          }
-          .m-footer1 {
-              text-align: center !important;
-              width: 100% !important;
-              padding-top:10px !important;
-          }
           .stop{
               display: none !important;
           }
@@ -62,7 +62,7 @@
       <mj-column>
         <mj-spacer height="20px" container-background-color="#ffffff"></mj-spacer>
         <mj-image padding="25px 20px 0 20px" align="left" width="153px" src="https://i.ibb.co/7r1nj2K/logo-EAssurance.png" alt="logo Ecosup-assurance"></mj-image>
-        <mj-text padding="10px 20px 0 20px" mj-class="c+1 T+3" letter-spacing="-1px">Ecosup Assurance vous ouvre ses Portes !</mj-text>
+        <mj-text padding="10px 20px 0 20px" mj-class="c+1 T+3" letter-spacing="-1px">Ecosup Commerce vous ouvre ses Portes !</mj-text>
         <mj-text padding="10px 20px 0 20px" mj-class="T400" color="#ffffff">{{ contact.PRENOM }}, après nos échanges sur le salon de l'Étudiant à Lille, nous vous invitons à découvrir notre campus :</mj-text>
         <mj-text padding="2px 20px" mj-class="T400" color="#ffffff">- Visite guidée de notre établissement</mj-text>
         <mj-text padding="2px 20px" mj-class="T400" color="#ffffff">- Rencontre avec les responsables pédagogiques et les intervenants professionnels</mj-text>
@@ -125,7 +125,7 @@
     </mj-section>
     <mj-section background-color="#ffffff" padding="20px 20px 0 20px">
       <mj-column width="244px">
-        <mj-button align="center" vertical-align="middle" padding="0 0 20px 0" border="2px solid #ba4995" border-radius="3px" inner-padding="14px 20px" background-color="transparent" css-class="bg-rollover-01 text-rollover" mj-class="T700 c+1" href="https://www.google.fr/maps/dir/+50.72123+,+3.15686"><i class="fa-solid fa-location-dot bg-rollover-01" style="font-family:FontAwesome;font-size:20px;line-height:20px;vertical-align:middle"></i> &nbsp;&nbsp;nous trouver</mj-button>
+        <mj-button align="center" vertical-align="middle" padding="0 0 20px 0" border="2px solid #ec6608" border-radius="3px" inner-padding="14px 20px" background-color="transparent" css-class="bg-rollover-01 text-rollover" mj-class="T700 c+1" href="https://www.google.fr/maps/dir/+50.72123+,+3.15686"><i class="fa-solid fa-location-dot bg-rollover-01" style="font-family:FontAwesome;font-size:20px;line-height:20px;vertical-align:middle"></i> &nbsp;&nbsp;nous trouver</mj-button>
       </mj-column>
       <mj-column width="244px">
         <mj-button align="center" vertical-align="middle" padding="0 0 20px 0" border-radius="3px" inner-padding="16px 22px" css-class="bg-rollover-02" mj-class="T700 bg+1" href="#"><i class="fa-regular fa-calendar-days" style="font-family:FontAwesome;color:#ffffff;font-size:20px;line-height:20px;vertical-align:middle"></i> &nbsp;&nbsp;ajouter à mon agenda</mj-button>
