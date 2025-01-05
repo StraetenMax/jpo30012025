@@ -1,0 +1,82 @@
+mjml
+    //- Head
+    mj-head
+        mj-title JPO du 14 décembre 2024 Ecosup
+        mj-font(name='Roboto' href='https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap')
+        mj-raw.
+            <meta name='color-scheme' content='light'/>
+            <meta name='supported-color-schemes' content='light'/>
+            <meta name="format-detection" content="telephone=no"/>
+            <meta name="format-detection" content="date=no"/>
+            <meta name="format-detection" content="address=no"/>
+            <meta name="format-detection" content="email=no"/>
+        mj-attributes
+            mj-all(font-family='Roboto, Arial, Helvetica,sans serif')/
+            mj-class(name='T+3' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='36px' line-height='36px' font-weight='900')/
+            mj-class(name='T+2' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='24px' line-height='28px' font-weight='700')/
+            mj-class(name='T+1' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='16px' line-height='20px' font-weight='700')/
+            mj-class(name='T' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='16px' line-height='20px' font-weight="400")/
+            mj-class(name='T-1' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='13px' line-height='15px' font-weight="400")/
+            mj-class(name='T-2' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='12px' line-height='16px' font-weight="400")/
+            mj-class(name='L' align="left" border-style="solid" border-width='0.75px' width='80px' padding="10px 0")/
+            //- couleurs modifiables
+            mj-class(name="cT+1" color="#14141f" border-color="#14141f")/
+            mj-class(name="cT+0" color="#626262")/
+            mj-class(name="c-0" color="#f6a86e")/
+            mj-class(name="bg-0" background-color="#f6a86e")/
+            mj-class(name="c+1" color="#ec6608")/
+            mj-class(name="bg+1" background-color="#ec6608")/
+        mj-breakpoint(width="480px")
+        mj-style.
+            .c11{
+                color: #ec6608 !important;
+            }
+            .cT00{
+                color: #626262 !important;
+            }
+
+            @media(max-width:480px){
+                .m-footer div{
+                    text-align: center !important;
+                    width: 100% !important;
+                }
+                .m-footer1 {
+                    text-align: center !important;
+                    width: 100% !important;
+                    padding-top:10px !important;
+                }
+                .stop{
+                    display: none !important;
+                }
+            }
+    //- Body
+    mj-body(background-color='#efefef' width="650px")
+        //- content
+        block content
+        //- bloc header
+        block header
+            include ../includes/commerce/_header
+        //- bloc article Assurance
+            block imgAssurance
+            include ../includes/commerce/_imgAssurance
+        //- bloc signature Christian
+            block signChristian
+            include ../includes/assurance/_signChristian
+        //- bloc formations
+        block formations
+            include ../includes/commerce/_formations-02
+        //- bloc argumentaires formations
+        block arg
+            include ../includes/commerce/_arg
+        //- bloc syrendre
+        block cTa
+            include ../includes/commerce/_cTa
+        //- bloc partenaires Assurance
+        block sponsors
+            include ../includes/commerce/_sponsors
+        //- bloc partenaires Assurance
+        block partenaires
+            include ../includes/commerce/_partenaires
+        //- bloc footer
+        block footer
+            include ../includes/commerce/_footer 
