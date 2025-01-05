@@ -127,7 +127,7 @@
     </mj-section>
     <mj-section background-color="#ffffff" padding="20px 20px 0 20px">
       <mj-column width="244px">
-        <mj-button align="center" vertical-align="middle" padding="0 0 20px 0" border="2px solid #ba4995" border-radius="3px" inner-padding="14px 20px" background-color="transparent" css-class="bg-rollover-01 text-rollover" mj-class="T700 c+1" href="https://www.google.fr/maps/dir/50.6824756,3.1708769/17+Pl.+Charles+et+Albert+Roussel,+59200+Tourcoing/"><i class="fa-solid fa-location-dot bg-rollover-01" style="font-family:FontAwesome;font-size:20px;line-height:20px;vertical-align:middle"></i> &nbsp;&nbsp;nous trouver</mj-button>
+        <mj-button align="center" vertical-align="middle" padding="0 0 20px 0" border="2px solid #ba4995" border-radius="3px" inner-padding="14px 20px" background-color="transparent" css-class="bg-rollover-01 text-rollover" mj-class="T700 c+1" href="https://www.google.fr/maps/dir/+50.72123+,+3.15686"><i class="fa-solid fa-location-dot bg-rollover-01" style="font-family:FontAwesome;font-size:20px;line-height:20px;vertical-align:middle"></i> &nbsp;&nbsp;nous trouver</mj-button>
       </mj-column>
       <mj-column width="244px">
         <mj-button align="center" vertical-align="middle" padding="0 0 20px 0" border-radius="3px" inner-padding="16px 22px" css-class="bg-rollover-02" mj-class="T700 bg+1" href="#"><i class="fa-regular fa-calendar-days" style="font-family:FontAwesome;color:#ffffff;font-size:20px;line-height:20px;vertical-align:middle"></i> &nbsp;&nbsp;ajouter à mon agenda</mj-button>
