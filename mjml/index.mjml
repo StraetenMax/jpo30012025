@@ -61,13 +61,13 @@
     <mj-section mj-class="bg-0" padding="0">
       <mj-column>
         <mj-spacer height="20px" container-background-color="#ffffff"></mj-spacer>
-        <mj-image padding="25px 20px 0 20px" align="left" width="153px" src="https://i.ibb.co/7r1nj2K/logo-EAssurance.png" alt="logo Ecosup-assurance"></mj-image>
+        <mj-image padding="25px 20px 0 20px" align="left" width="153px" src="https://i.ibb.co/wrpwgdn/logo-ECommerce.png" alt="logo Ecosup Commerce"></mj-image>
         <mj-text padding="10px 20px 0 20px" mj-class="c+1 T+3" letter-spacing="-1px">Ecosup Commerce vous ouvre ses Portes !</mj-text>
-        <mj-text padding="10px 20px 0 20px" mj-class="T400" color="#ffffff">{{ contact.PRENOM }}, après nos échanges sur le salon de l'Étudiant à Lille, nous vous invitons à découvrir notre campus :</mj-text>
-        <mj-text padding="2px 20px" mj-class="T400" color="#ffffff">- Visite guidée de notre établissement</mj-text>
-        <mj-text padding="2px 20px" mj-class="T400" color="#ffffff">- Rencontre avec les responsables pédagogiques et les intervenants professionnels</mj-text>
-        <mj-text padding="2px 20px" mj-class="T400" color="#ffffff">- Échange avec les étudiants de la promotion</mj-text>
-        <mj-text padding="2px 20px" mj-class="T400" color="#ffffff">- Élaboration du plan de financement</mj-text>
+        <mj-text padding="10px 20px 0 20px" mj-class="T400 cT+1">{{ contact.PRENOM }}, après nos échanges sur le salon de l'Étudiant à Lille, nous vous invitons à découvrir notre campus :</mj-text>
+        <mj-text padding="2px 20px" mj-class="T400 cT+1">- Visite guidée de notre établissement</mj-text>
+        <mj-text padding="2px 20px" mj-class="T400 cT+1">- Rencontre avec les responsables pédagogiques et les intervenants professionnels</mj-text>
+        <mj-text padding="2px 20px" mj-class="T400 cT+1">- Échange avec les étudiants de la promotion</mj-text>
+        <mj-text padding="2px 20px" mj-class="T400 cT+1">- Élaboration du plan de financement</mj-text>
         <mj-button padding="20px 20px 25px 20px" mj-class="T700 bg+1"><span style="text-transform:uppercase;">Nocturne Portes Ouvertes</span> jeudi 30 Janvier de 17h à 19h</mj-button>
         <mj-spacer height="20px" container-background-color="#ffffff"></mj-spacer>
       </mj-column>
@@ -139,7 +139,7 @@
     <mj-section background-color="#d9d9d9" padding="20px 60px 40px 60px"> 
       <mj-group width="50%">
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/3CfWWxL/Logo-Assurance14.jpg" alt="logo couleur AXA assurance"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/6PXjrWM/logo12.jpg" alt="logo de l'entreprise Bureau Vallée"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
           <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/h8YcCy9/Logo-Assurance13.jpg" alt="logo couleur SMA btp"/>
