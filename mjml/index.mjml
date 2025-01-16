@@ -24,11 +24,11 @@
       <mj-class name="L" align="left" border-style="solid" border-width="0.75px" width="80px" padding="10px 0"></mj-class>
       <mj-class name="cT+1" color="#14141f" border-color="#14141f"/>
       <mj-class name="cT+0" color="#626262"/>
-      <mj-class name="c-0" color="#5cd6c2"/>
-      <mj-class name="bg-0" background-color="#5cd6c2"/>
+      <mj-class name="c-0" color="#ffda13"/>
+      <mj-class name="bg-0" background-color="#ffec80"/>
       <mj-class name="c+11" color="#005d95"/>
-      <mj-class name="c+1" color="#36a9e1"/>
-      <mj-class name="bg+1" background-color="#36a9e1"/>
+      <mj-class name="c+1" color="#1c85c8"/>
+      <mj-class name="bg+1" background-color="#1c85c8"/>
       <mj-class name="bg+11" background-color="#005d95"/>
     </mj-attributes>
     <mj-breakpoint width="480px"></mj-breakpoint>
@@ -63,14 +63,14 @@
     <mj-section mj-class="bg-0" padding="0">
       <mj-column>
         <mj-spacer height="20px" container-background-color="#efefef"></mj-spacer>
-        <mj-image padding="25px 20px 0 20px" align="left" width="153px" src="https://i.ibb.co/18LWQj8/logo-ESante.png" alt="logo Ecosup santé"></mj-image>
-        <mj-text padding="10px 20px 0 20px" mj-class="c+11 T+3" letter-spacing="-1px">Ecosup Santé vous ouvre ses Portes !</mj-text>
+        <mj-image padding="25px 20px 0 20px" align="left" width="153px" src="https://i.ibb.co/18LWQj8/logo-ESante.png" alt="logo Ecosup Santé"></mj-image>
+        <mj-text padding="10px 20px 0 20px" mj-class="c+1 T+3" letter-spacing="-1px">Ecosup Santé vous ouvre ses Portes !</mj-text>
         <mj-text padding="10px 20px 0 20px" mj-class="T400 cT+1">{{ contact.PRENOM }}, après nos échanges sur le salon de l'Étudiant à Lille, nous vous invitons à découvrir notre campus :</mj-text>
         <mj-text padding="2px 20px" mj-class="T400 cT+1">- Visite guidée de notre établissement,</mj-text>
         <mj-text padding="2px 20px" mj-class="T400 cT+1">- Rencontre avec les responsables pédagogiques et les intervenants professionnels,</mj-text>
         <mj-text padding="2px 20px" mj-class="T400 cT+1">- Échange avec les étudiants de la promotion,</mj-text>
         <mj-text padding="2px 20px" mj-class="T400 cT+1">- Élaboration du mode de financement.</mj-text>
-        <mj-button padding="20px 20px 25px 20px" mj-class="T700 bg+1"><span style="text-transform:uppercase;">Nocturne Portes Ouvertes</span> jeudi 30 Janvier de 17h à 19h</mj-button>
+        <mj-button padding="20px 20px 25px 20px" mj-class="T700 bg+11"><span style="text-transform:uppercase;">Nocturne Portes Ouvertes</span> jeudi 30 Janvier de 17h à 19h</mj-button>
         <mj-spacer height="20px" container-background-color="#ffffff"></mj-spacer>
       </mj-column>
       <mj-column>
@@ -82,18 +82,18 @@
       <mj-column background-color="#ffffff" width="50%" vertical-align="top" padding="10px">
         <mj-image padding="0" border="0" fluid-on-mobile="true" src="https://i.ibb.co/XS66p55/bts-Assurance.jpg" alt="formation BTS Assurance"></mj-image>
         <mj-text align="right" padding="5px 10px" container-background-color="#005d95" color="#ffffff" mj-class="T-1" text-transform="uppercase">Formation Initiale</mj-text>
-        <mj-text align="center" padding="12px 10px 0 10px" container-background-color="#5cd6c2" mj-class="T700 cT+1" text-transform="uppercase">SM</mj-text>
-        <mj-text align="center" padding="0px 10px 22px 10px" container-background-color="#5cd6c2" mj-class="T400 cT+1">Secrétaire médical(e)</mj-text>
+        <mj-text align="center" padding="12px 10px 0 10px" container-background-color="#ffec80" mj-class="T700 cT+1" text-transform="uppercase">CAP AEPE</mj-text>
+        <mj-text align="center" padding="0px 10px 22px 10px" container-background-color="#ffec80" mj-class="T400 cT+1">Accompagnant Éducatif Petite Enfance</mj-text>
       </mj-column>
       <mj-column background-color="#ffffff" width="50%" vertical-align="top" padding="10px">
         <mj-image padding="0" border="0" fluid-on-mobile="true" src="https://i.ibb.co/C09Qzq6/bachelor-Assurance.jpg" alt="formation Bachelor Chargé(e) de Clientèles en Assurance et Banque"></mj-image>
         <mj-text align="right" padding="5px 10px" container-background-color="#005d95" color="#ffffff" mj-class="T-1" text-transform="uppercase">Formation en Apprentissage</mj-text>
-        <mj-text align="center" padding="12px 10px 0 10px" container-background-color="#5cd6c2" mj-class="T700 cT+1" text-transform="uppercase">SM</mj-text>
-        <mj-text align="center" padding="0 10px 22px 10px" container-background-color="#5cd6c2" mj-class="T400 cT+1">Secrétaire médical(e)</mj-text>
+        <mj-text align="center" padding="12px 10px 0 10px" container-background-color="#ffec80" mj-class="T700 cT+1" text-transform="uppercase">CAP AEPE</mj-text>
+        <mj-text align="center" padding="0 10px 22px 10px" container-background-color="#ffec80" mj-class="T400 cT+1">Accompagnant Éducatif Petite Enfance</mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding="20px 10px">
-      <mj-group>
+      <mj-group width="50%">
         <mj-column vertical-align="top" padding="10px">
           <mj-image align="center" padding="0" border="0" width="120px" src="https://i.ibb.co/6Y3byRf/logo-Qualiopijpo12142024.png" alt="logo qualiopi"></mj-image>
           <mj-spacer height="10px"></mj-spacer>
@@ -102,8 +102,14 @@
           <mj-image align="center" padding="0" border="0" width="120px" src="https://i.ibb.co/61w1cZf/logo-RNCPjpo12142024.png" alt="logo RNCP, répertoire national des certifications professionnelles"></mj-image>
           <mj-spacer height="10px"></mj-spacer>
         </mj-column>
+      </mj-group>
+      <mj-group width="50%">
         <mj-column vertical-align="top" padding="10px">
-          <mj-image align="center" padding="0" border="0" width="80px" src="https://i.ibb.co/z2KhzM2/Logo-Vidal-formationjpo12142024.png" alt="logo Vidal formation"></mj-image>
+          <mj-image align="center" padding="0" border="0" width="80px" src="https://i.ibb.co/sJCtDXM/logo-ESAjpo12142024.png" alt="logo ESA, École Supérieure d'Assurances"></mj-image>
+          <mj-spacer height="10px"></mj-spacer>
+        </mj-column>
+        <mj-column vertical-align="top" padding="10px">
+          <mj-image align="center" padding="0" border="0" width="80px" src="https://i.ibb.co/NmWvQ57/logo-Academie-Lillejpo12142024.png" alt="logo de l'académie de Lille, éducation nationale"></mj-image>
           <mj-spacer height="10px"></mj-spacer>
         </mj-column>
       </mj-group>
@@ -115,44 +121,44 @@
     </mj-section>
     <mj-section background-color="#ffffff" padding="20px 20px 0 20px">
       <mj-column width="244px">
-        <mj-button align="center" vertical-align="middle" padding="0 0 20px 0" border="2px solid #36a9e1" border-radius="3px" inner-padding="14px 20px" background-color="transparent" css-class="bg-rollover-01 text-rollover" mj-class="T700 c+1" href="https://www.google.fr/maps/dir/+50.72123+,+3.15686"><i class="fa-solid fa-location-dot bg-rollover-01" style="font-family:FontAwesome;font-size:20px;line-height:20px;vertical-align:middle"></i> &nbsp;&nbsp;nous trouver</mj-button>
+        <mj-button align="center" vertical-align="middle" padding="0 0 20px 0" border="2px solid #1c85c8" border-radius="3px" inner-padding="14px 20px" background-color="transparent" css-class="bg-rollover-01 text-rollover" mj-class="T700 c+1" href="https://www.google.fr/maps/dir/+50.72123+,+3.15686"><i class="fa-solid fa-location-dot bg-rollover-01" style="font-family:FontAwesome;font-size:20px;line-height:20px;vertical-align:middle"></i> &nbsp;&nbsp;nous trouver</mj-button>
       </mj-column>
       <mj-column width="244px">
         <mj-button align="center" vertical-align="middle" padding="0 0 20px 0" border-radius="3px" inner-padding="16px 22px" css-class="bg-rollover-02" mj-class="T700 bg+1" href="#"><i class="fa-regular fa-calendar-days" style="font-family:FontAwesome;color:#ffffff;font-size:20px;line-height:20px;vertical-align:middle"></i> &nbsp;&nbsp;ajouter à mon agenda</mj-button>
       </mj-column>
     </mj-section>
-    <mj-section mj-class="bg-0" padding="0 20px">
+    <mj-section mj-class="bg+11" padding="0 20px">
       <mj-column>
-        <mj-text align="center" padding="14px 0" mj-class="T+2 c+11" letter-spacing="2px"><a style="text-decoration:none;color:#005d95;" href="https://ecosup-assurance.fr" target="_blank">www.ecosup-assurance.fr</a></mj-text>
+        <mj-text align="center" padding="14px 0" mj-class="T+2" color="#ffffff" letter-spacing="2px"><a style="text-decoration:none;color:#ffffff;" href="https://ecosup-assurance.fr" target="_blank">www.ecosup-sante.fr</a></mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#d9d9d9" padding="20px 60px 40px 60px"> 
       <mj-group width="50%">
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/6X2Zw9f/logoSM01.jpg" alt="logo centre Hospitalier d'Armentières"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/3CfWWxL/Logo-Assurance14.jpg" alt="logo couleur AXA assurance"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/PMY9m59/logoSM02.jpg" alt="logo d'Imanord, imagerie médicale"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/h8YcCy9/Logo-Assurance13.jpg" alt="logo couleur SMA btp"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/41sQQsk/logoSM03.jpg" alt="logo d'Iris imagerie radiologique interventionnelle et scintigraphique"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/XspTwRh/Logo-Assurance12.jpg" alt="logo couleur DLM location"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/dLmM2dY/logoSM04.jpg" alt="logo Nord Vasculaire"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/1vDhhpM/Logo-Assurance11.jpg" alt="logo couleur Concilian"/>
         </mj-column>
       </mj-group>
       <mj-group width="50%">
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/S7yFYPy/logoSM05.jpg" alt="logo Imagix centre d'imagerie médicale"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/xY71s8T/Logo-Assurance10.jpg" alt="logo couleur Mésange Prévoyance"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/QYWDXym/logoSM06.jpg" alt="logo centre Hospitalier de Roubaix"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/r3LzxSd/Logo-Assurance09.jpg" alt="logo couleur groupe Henner"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/s3CFdLp/logoSM07.jpg.jpg" alt="logo centre Hospitalier de Tourcoing"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/phdSYvJ/Logo-Assurance16.jpg" alt="logo caisse d'Épargne"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/gvhGNf8/logoSM08.jpg" alt="logo Imp pact"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/KNS4FXx/Logo-Assurance08.jpg" alt="logo couleur Allianz assurance"/>
         </mj-column>
       </mj-group>
       <mj-group width="50%">
