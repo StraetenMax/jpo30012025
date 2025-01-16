@@ -92,20 +92,14 @@
         <mj-text align="center" padding="0 10px 22px 10px" container-background-color="#ffec80" mj-class="T400 cT+1">Accompagnant Éducatif Petite Enfance</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#ffffff" padding="20px 10px">
-      <mj-group width="50%">
+    <mj-section background-color="#ffffff" padding="20px 20px">
+      <mj-group>
         <mj-column vertical-align="top" padding="10px">
           <mj-image align="center" padding="0" border="0" width="120px" src="https://i.ibb.co/6Y3byRf/logo-Qualiopijpo12142024.png" alt="logo qualiopi"></mj-image>
           <mj-spacer height="10px"></mj-spacer>
         </mj-column>
         <mj-column vertical-align="top" padding="10px">
-          <mj-image align="center" padding="0" border="0" width="120px" src="https://i.ibb.co/61w1cZf/logo-RNCPjpo12142024.png" alt="logo RNCP, répertoire national des certifications professionnelles"></mj-image>
-          <mj-spacer height="10px"></mj-spacer>
-        </mj-column>
-      </mj-group>
-      <mj-group width="50%">
-        <mj-column vertical-align="top" padding="10px">
-          <mj-image align="center" padding="0" border="0" width="80px" src="https://i.ibb.co/sJCtDXM/logo-ESAjpo12142024.png" alt="logo ESA, École Supérieure d'Assurances"></mj-image>
+          <mj-image align="center" padding="0" border="0" width="80px" src="https://i.ibb.co/z2KhzM2/Logo-Vidal-formationjpo12142024.png" alt="logo Vidal formation"></mj-image>
           <mj-spacer height="10px"></mj-spacer>
         </mj-column>
         <mj-column vertical-align="top" padding="10px">
@@ -133,60 +127,18 @@
       </mj-column>
     </mj-section>
     <mj-section background-color="#d9d9d9" padding="20px 60px 40px 60px"> 
-      <mj-group width="50%">
+      <mj-group width="280px">
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/3CfWWxL/Logo-Assurance14.jpg" alt="logo couleur AXA assurance"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/8r6dR9c/Logo-Aepe01.jpg" alt="logo Les Chérubins, reseau de micro-crèches"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/h8YcCy9/Logo-Assurance13.jpg" alt="logo couleur SMA btp"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/km0YCNd/Logo-Aepe02.jpg" alt="logo Nature &amp; Petits Pas, micro-crèche"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/XspTwRh/Logo-Assurance12.jpg" alt="logo couleur DLM location"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/nQTzGZ3/Logo-Aepe03.jpg" alt="logo Le Tipi des Toutpeti"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/1vDhhpM/Logo-Assurance11.jpg" alt="logo couleur Concilian"/>
-        </mj-column>
-      </mj-group>
-      <mj-group width="50%">
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/xY71s8T/Logo-Assurance10.jpg" alt="logo couleur Mésange Prévoyance"/>
-        </mj-column>
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/r3LzxSd/Logo-Assurance09.jpg" alt="logo couleur groupe Henner"/>
-        </mj-column>
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/phdSYvJ/Logo-Assurance16.jpg" alt="logo caisse d'Épargne"/>
-        </mj-column>
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/KNS4FXx/Logo-Assurance08.jpg" alt="logo couleur Allianz assurance"/>
-        </mj-column>
-      </mj-group>
-      <mj-group width="50%">
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/s3Qyqv3/Logo-Assurance07.jpg" alt="logo couleur Swiss Life"/>
-        </mj-column>
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/Qpm6jgs/Logo-Assurance06.jpg" alt="logo couleur Humanis Malakoff"/>
-        </mj-column>
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/qdq473M/Logo-Assurance15.jpg" alt="logo couleur Sofinco"/>
-        </mj-column>
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/gP4PsSM/Logo-Assurance04.jpg" alt="logo couleur Deledalle courtier d'assurances"/>
-        </mj-column>
-      </mj-group>
-      <mj-group width="50%">
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/zJXqcYB/Logo-Assurance17.jpg" alt="logo couleur Credit Agricole"/>
-        </mj-column>
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/mzbfQs1/Logo-Assurance03.jpg" alt="logo 2M votre courtier assurancess"/>
-        </mj-column>
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/6J8BVCd/Logo-Assurance02.jpg" alt="logo couleur MMA assurance"/>
-        </mj-column>
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/8r9FGG5/Logo-Assurance01.jpg" alt="logo couleur Diot groupe Diot Siaci"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/4FcqpSj/Logo-Aepe04.jpg" alt="logo de la ville de Wasquehal"/>
         </mj-column>
       </mj-group>
     </mj-section>
