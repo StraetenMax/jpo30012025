@@ -1,8 +1,8 @@
 
 <mjml>
   <mj-head>
-    <mj-title>JPO du 30 janvier 2025 Ecosup Tourisme</mj-title>
-    <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&amp;display=swap"></mj-font>
+    <mj-title>JPO du 30 janvier 2025 Ecosup Commerce</mj-title>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&amp;display=swap"></mj-font>
     <mj-font name="fontAwesome" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
     <mj-raw>
       <meta name='color-scheme' content='light'/>
@@ -21,37 +21,35 @@
       <mj-class name="T400" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px" font-weight="400"/>
       <mj-class name="T-1" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="13px" line-height="17px" font-weight="400"/>
       <mj-class name="T-2" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="10px" line-height="12px" font-weight="300"/>
-      <mj-class name="L" align="left" border-style="solid" border-width="0.75px" width="80px" padding="10px 0"></mj-class>
+      <mj-class name="L" align="left" border-style="solid" border-width="0.75px" width="80px" padding="10px 0"/>
       <mj-class name="cT+1" color="#14141f" border-color="#14141f"/>
       <mj-class name="cT+0" color="#626262"/>
-      <mj-class name="c-0" color="#1F3C90"/>
-      <mj-class name="bg-0" background-color="#1F3C90"/>
-      <mj-class name="c+11" color="#787FBD"/>
-      <mj-class name="c+1" color="#20274F"/>
-      <mj-class name="bg+1" background-color="#20274F"/>
-      <mj-class name="bg+11" background-color="#787FBD"/>
+      <mj-class name="c-0" color="#f6a86e"/>
+      <mj-class name="bg-0" background-color="#f6a86e"/>
+      <mj-class name="c+1" color="#ec6608"/>
+      <mj-class name="bg+1" background-color="#ec6608"/>
     </mj-attributes>
     <mj-breakpoint width="480px"></mj-breakpoint>
     <mj-style>
-       .bg-rollover-01:hover td, .bg-rollover-01:hover a{
-           background-color: #20274F !important;
-           color: #ffffff !important;
-           border: 1px solid #20274F !important;
+      .bg-rollover-01:hover td, .bg-rollover-01:hover a{
+          background-color: #AA3E17 !important;
+          color: #ffffff !important;
+          border: 1px solid #AA3E17 !important;
       }
       
       .text-rollover:hover td, .text-rollover:hover a{
-           color: #ffffff !important;
+          color: #ffffff !important;
       }
       
-       .bg-rollover-02:hover td, .bg-rollover-02:hover a{
-           background-color: #20274F !important;
+      .bg-rollover-02:hover td, .bg-rollover-02:hover a{
+          background-color: #AA3E17 !important;
       }
       
-       @media(max-width:480px){
-           .stop{
-               display: none !important;
-           }
-       }
+      @media(max-width:480px){
+          .stop{
+              display: none !important;
+          }
+      }
     </mj-style>
   </mj-head>
   <mj-body background-color="#efefef" width="650px">
@@ -60,16 +58,16 @@
         <mj-text align="center"><a style="color:#626262;font-size:10px;font-weight:500;line-height:12px" href="{{ mirror}}">Voir la version en ligne</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a style="color:#626262;font-size:10px;font-weight:500;line-height:12px;" href="{{ unsubscribe }}">Se désinscrire de la liste de diffusion</a></mj-text>
       </mj-column>
     </mj-section>
-    <mj-section mj-class="bg+11" padding="0">
+    <mj-section mj-class="bg-0" padding="0">
       <mj-column>
         <mj-spacer height="20px" container-background-color="#efefef"></mj-spacer>
-        <mj-image padding="25px 20px 0 20px" align="left" width="153px" src="https://i.ibb.co/x7Dh8V0/logo-ETourisme.png" alt="logo Ecosup-tourisme"></mj-image>
-        <mj-text padding="10px 20px 0 20px" mj-class="c+1 T+3" letter-spacing="-1px">Ecosup Tourisme vous ouvre ses Portes !</mj-text>
+        <mj-image padding="25px 20px 0 20px" align="left" width="153px" src="https://i.ibb.co/wrpwgdn/logo-ECommerce.png" alt="logo Ecosup Commerce"></mj-image>
+        <mj-text padding="10px 20px 0 20px" mj-class="c+1 T+3" letter-spacing="-1px">Ecosup Commerce vous ouvre ses Portes !</mj-text>
         <mj-text padding="10px 20px 0 20px" mj-class="T400 cT+1">{{ contact.PRENOM }}, après nos échanges sur le salon de l'Étudiant à Lille, nous vous invitons à découvrir notre campus :</mj-text>
-        <mj-text padding="2px 20px" mj-class="T400 cT+1">- Visite guidée de notre établissement</mj-text>
-        <mj-text padding="2px 20px" mj-class="T400 cT+1">- Rencontre avec les responsables pédagogiques et les intervenants professionnels</mj-text>
-        <mj-text padding="2px 20px" mj-class="T400 cT+1">- Échange avec les étudiants de la promotion</mj-text>
-        <mj-text padding="2px 20px" mj-class="T400 cT+1">- Élaboration du plan de financement</mj-text>
+        <mj-text padding="2px 20px" mj-class="T400 cT+1">- Visite guidée de notre établissement,</mj-text>
+        <mj-text padding="2px 20px" mj-class="T400 cT+1">- Rencontre avec les responsables pédagogiques et les intervenants professionnels,</mj-text>
+        <mj-text padding="2px 20px" mj-class="T400 cT+1">- Échange avec les étudiants de la promotion,</mj-text>
+        <mj-text padding="2px 20px" mj-class="T400 cT+1">- Élaboration du mode de financement.</mj-text>
         <mj-button padding="20px 20px 25px 20px" mj-class="T700 bg+1"><span style="text-transform:uppercase;">Nocturne Portes Ouvertes</span> jeudi 30 Janvier de 17h à 19h</mj-button>
         <mj-spacer height="20px" container-background-color="#ffffff"></mj-spacer>
       </mj-column>
@@ -80,45 +78,45 @@
     </mj-section>
     <mj-section background-color="#ffffff" padding="20px 10px 10px">
       <mj-column background-color="#ffffff" width="33.333333%" vertical-align="top" padding="10px">
-        <mj-image padding="0" border="0" fluid-on-mobile="true" src="https://i.ibb.co/XS66p55/bts-Assurance.jpg" alt="formation BTS Tourisme"></mj-image>
-        <mj-text align="right" padding="5px 10px" container-background-color="#20274F" color="#ffffff" mj-class="T-1" text-transform="uppercase">Apprentissage</mj-text>
-        <mj-text align="center" padding="12px 10px 0 10px" container-background-color="#787FBD" mj-class="T700 cT+1" text-transform="uppercase">Bts </mj-text>
-        <mj-text align="center" padding="0px 10px 52px 10px" container-background-color="#787FBD" mj-class="T400 cT+1">Tourisme</mj-text>
+        <mj-image padding="0" border="0" fluid-on-mobile="true" src="https://i.ibb.co/DK5JRvP/BtsImmo.jpg" alt="formation BTS Professions immobilières"></mj-image>
+        <mj-text align="right" padding="5px 10px" container-background-color="#AA3E17" color="#ffffff" mj-class="T-1" text-transform="uppercase">Apprentissage</mj-text>
+        <mj-text align="center" padding="12px 10px 0 10px" container-background-color="#f6a86e" mj-class="T700 cT+1" text-transform="uppercase">Bts </mj-text>
+        <mj-text align="center" padding="0px 10px 32px 10px" container-background-color="#f6a86e" mj-class="T400 cT+1">Professions immobilières</mj-text>
       </mj-column>
       <mj-column background-color="#ffffff" width="33.333333%" vertical-align="top" padding="10px">
-        <mj-image padding="0" border="0" fluid-on-mobile="true" src="https://i.ibb.co/C09Qzq6/bachelor-Assurance.jpg" alt="formation Bachelor Chargé(e) de Clientèles en Assurance et Banque"></mj-image>
-        <mj-text align="right" padding="5px 10px" container-background-color="#20274F" color="#ffffff" mj-class="T-1" text-transform="uppercase">Apprentissage</mj-text>
-        <mj-text align="center" padding="12px 10px 0 10px" container-background-color="#787FBD" mj-class="T700 cT+1" text-transform="uppercase">Bachelor</mj-text>
-        <mj-text align="center" padding="0 10px 12px 10px" container-background-color="#787FBD" mj-class="T400 cT+1">Chargé(e) de gestion commerciale en Tourisme</mj-text>
+        <mj-image padding="0" border="0" fluid-on-mobile="true" src="https://i.ibb.co/ThL6r50/BtsMCO.jpg" alt="formation BTS MCO Management Commercial Opérationnel"></mj-image>
+        <mj-text align="right" padding="5px 10px" container-background-color="#AA3E17" color="#ffffff" mj-class="T-1" text-transform="uppercase">Apprentissage</mj-text>
+        <mj-text align="center" padding="12px 10px 0 10px" container-background-color="#f6a86e" mj-class="T700 cT+1" text-transform="uppercase">Bts</mj-text>
+        <mj-text align="center" padding="0 10px 12px 10px" container-background-color="#f6a86e" mj-class="T400 cT+1">MCO Management Commercial Opérationnel</mj-text>
       </mj-column>
       <mj-column background-color="#ffffff" width="33.333333%" vertical-align="top" padding="10px">
-        <mj-image padding="0" border="0" fluid-on-mobile="true" src="https://i.ibb.co/kcV2JXB/mastere-Assurance.jpg" alt="formation Mastère Expert(e) en Ingénierie Patrimoniale"></mj-image>
-        <mj-text align="right" padding="5px 10px" container-background-color="#20274F" color="#ffffff" mj-class="T-1" text-transform="uppercase">Apprentissage</mj-text>
-        <mj-text align="center" padding="12px 10px 0 10px" container-background-color="#787FBD" mj-class="T700 cT+1" text-transform="uppercase">Mastère</mj-text>
-        <mj-text align="center" padding="0 10px 12px 10px" container-background-color="#787FBD" mj-class="T400 cT+1">Management stratégique des entreprises du tourisme</mj-text>
+        <mj-image padding="0" border="0" fluid-on-mobile="true" src="https://i.ibb.co/HY9KvdL/Bachelor-RDC.jpg" alt="formation Bachelor Responsable Développement Commercial"></mj-image>
+        <mj-text align="right" padding="5px 10px" container-background-color="#AA3E17" color="#ffffff" mj-class="T-1" text-transform="uppercase">Apprentissage</mj-text>
+        <mj-text align="center" padding="12px 10px 0 10px" container-background-color="#f6a86e" mj-class="T700 cT+1" text-transform="uppercase">Bachelor</mj-text>
+        <mj-text align="center" padding="0 10px 12px 10px" container-background-color="#f6a86e" mj-class="T400 cT+1">RDC Responsable du Développement Commercial</mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding="20px 10px">
-      <mj-column vertical-align="top" padding="10px">
-        <mj-image align="center" padding="0" border="0" width="120px" src="https://i.ibb.co/6Y3byRf/logo-Qualiopijpo12142024.png" alt="logo qualiopi"></mj-image>
-        <mj-spacer height="10px"></mj-spacer>
-      </mj-column>
-      <mj-column vertical-align="top" padding="10px">
-        <mj-image align="center" padding="0" border="0" width="120px" src="https://i.ibb.co/61w1cZf/logo-RNCPjpo12142024.png" alt="logo RNCP, répertoire national des certifications professionnelles"></mj-image>
-        <mj-spacer height="10px"></mj-spacer>
-      </mj-column>
-      <mj-column vertical-align="top" padding="10px">
-        <mj-image align="center" padding="0" border="0" width="80px" src="https://i.ibb.co/wWQzSdT/Plan-de-travail-1jpo12142024.png" alt="logo formatives, certificateur"></mj-image>
-        <mj-spacer height="10px"></mj-spacer>
-      </mj-column>
-      <mj-column vertical-align="top" padding="10px">
-        <mj-image align="center" padding="0" border="0" width="80px" src="https://i.ibb.co/4KBjqnQ/logo-Fedejpo12142024.png" alt="logo FEDE, Federation for EDucation in Europe"></mj-image>
-        <mj-spacer height="10px"></mj-spacer>
-      </mj-column>
-      <mj-column vertical-align="top" padding="10px">
-        <mj-image align="center" padding="0" border="0" width="80px" src="https://i.ibb.co/NmWvQ57/logo-Academie-Lillejpo12142024.png" alt="logo de l'académie de Lille, éducation nationale"></mj-image>
-        <mj-spacer height="10px"></mj-spacer>
-      </mj-column>
+      <mj-group width="50%">
+        <mj-column vertical-align="top" padding="10px">
+          <mj-image align="center" padding="0" border="0" width="120px" src="https://i.ibb.co/6Y3byRf/logo-Qualiopijpo12142024.png" alt="logo qualiopi"></mj-image>
+          <mj-spacer height="10px"></mj-spacer>
+        </mj-column>
+        <mj-column vertical-align="top" padding="10px">
+          <mj-image align="center" padding="0" border="0" width="120px" src="https://i.ibb.co/61w1cZf/logo-RNCPjpo12142024.png" alt="logo RNCP, répertoire national des certifications professionnelles"></mj-image>
+          <mj-spacer height="10px"></mj-spacer>
+        </mj-column>
+      </mj-group>
+      <mj-group width="50%">
+        <mj-column vertical-align="top" padding="10px">
+          <mj-image align="center" padding="0" border="0" width="80px" src="https://i.ibb.co/ypGRKtK/IMCPjpo12142024.png" alt="logo IMCP, Professionnels de la Formation depuis plus de 50 ans"></mj-image>
+          <mj-spacer height="10px"></mj-spacer>
+        </mj-column>
+        <mj-column vertical-align="top" padding="10px">
+          <mj-image align="center" padding="0" border="0" width="80px" src="https://i.ibb.co/NmWvQ57/logo-Academie-Lillejpo12142024.png" alt="logo de l'académie de Lille, éducation nationale"></mj-image>
+          <mj-spacer height="10px"></mj-spacer>
+        </mj-column>
+      </mj-group>
     </mj-section>
     <mj-section background-color="#ffffff" padding="0px 20px">
       <mj-column>
@@ -127,72 +125,72 @@
     </mj-section>
     <mj-section background-color="#ffffff" padding="20px 20px 0 20px">
       <mj-column width="244px">
-        <mj-button align="center" vertical-align="middle" padding="0 0 20px 0" border="2px solid #1F3C90" border-radius="3px" inner-padding="14px 20px" background-color="transparent" css-class="bg-rollover-01 text-rollover" mj-class="T700 c-0" href="https://www.google.fr/maps/dir/+50.72123+,+3.15686"><i class="fa-solid fa-location-dot bg-rollover-01" style="font-family:FontAwesome;font-size:20px;line-height:20px;vertical-align:middle"></i> &nbsp;&nbsp;nous trouver</mj-button>
+        <mj-button align="center" vertical-align="middle" padding="0 0 20px 0" border="2px solid #ec6608" border-radius="3px" inner-padding="14px 20px" background-color="transparent" css-class="bg-rollover-01 text-rollover" mj-class="T700 c+1" href="https://www.google.fr/maps/dir/+50.72123+,+3.15686"><i class="fa-solid fa-location-dot bg-rollover-01" style="font-family:FontAwesome;font-size:20px;line-height:20px;vertical-align:middle"></i> &nbsp;&nbsp;nous trouver</mj-button>
       </mj-column>
       <mj-column width="244px">
-        <mj-button align="center" vertical-align="middle" padding="0 0 20px 0" border-radius="3px" inner-padding="16px 22px" css-class="bg-rollover-02" mj-class="T700 bg-0" href="#"><i class="fa-regular fa-calendar-days" style="font-family:FontAwesome;color:#ffffff;font-size:20px;line-height:20px;vertical-align:middle"></i> &nbsp;&nbsp;ajouter à mon agenda</mj-button>
+        <mj-button align="center" vertical-align="middle" padding="0 0 20px 0" border-radius="3px" inner-padding="16px 22px" css-class="bg-rollover-02" mj-class="T700 bg+1" href="#"><i class="fa-regular fa-calendar-days" style="font-family:FontAwesome;color:#ffffff;font-size:20px;line-height:20px;vertical-align:middle"></i> &nbsp;&nbsp;ajouter à mon agenda</mj-button>
       </mj-column>
     </mj-section>
-    <mj-section mj-class="bg+1" padding="0 20px">
+    <mj-section mj-class="bg-0" padding="0 20px">
       <mj-column>
-        <mj-text align="center" padding="14px 0" mj-class="T+2" color="#ffffff" letter-spacing="2px"><a style="text-decoration:none;color:#ffffff;" href="https://ecosup-assurance.fr" target="_blank">www.ecosup-tourisme.fr</a></mj-text>
+        <mj-text align="center" padding="14px 0" mj-class="T+2" color="#ffffff" letter-spacing="2px"><a style="text-decoration:none;color:#ffffff;" href="https://ecosup-commerce.fr" target="_blank">www.ecosup-commerce.fr</a></mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#d9d9d9" padding="20px 60px 40px 60px"> 
       <mj-group width="50%">
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/ZVLJ40K/Logo-Tourisme01.jpg" alt="logo du Port de Boulogne Calais"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/6PXjrWM/logo12.jpg" alt="logo de l'entreprise Bureau Vallée"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/qJRjHm9/Logo-Tourisme02.jpg" alt="logo FVH"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/jzx6wwD/Logo17.jpg" alt="logo de l'entreprise First Burger"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/QNwzyQs/Logo-Tourisme03.jpg" alt="logo de l'agence de voyage CAP 5 voyages"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/JtjjLqW/logo16.jpg" alt="logo de l'entreprise System U"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/Gp2p7qh/Logo-Tourisme04.jpg" alt="logo des agences de voyages Selectour"/>
-        </mj-column>
-      </mj-group>
-      <mj-group width="50%">
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/1q7Rs5C/Logo-Tourisme05.jpg" alt="logo Planète croisière"/>
-        </mj-column>
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/7Kt5FTX/Logo-Tourisme06.jpg" alt="logo civi-ling, séjours linguistiques"/>
-        </mj-column>
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/ggnx3PF/Logo-Tourisme07.jpg" alt="logo SC Travel"/>
-        </mj-column>
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/fNjtWMS/Logo-Tourisme08.jpg" alt="logo Mariot voyages"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/rwCsPwv/logo13.jpg" alt="logo de l'entreprise B&amp;M"/>
         </mj-column>
       </mj-group>
       <mj-group width="50%">
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/3TyNHFT/Logo-Tourisme09.jpg" alt="logo Hôtel Saint Maurice"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/3BkGVdJ/logo15.jpg" alt="logo du Chocolatier Jeff de Bruges"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/TcMKrBd/Logo-Tourisme10.jpg" alt="logo destination Coeur de Flandre"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/gMT39C5/logo14.jpg" alt="logo de l'entreprise Vaporama"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/bKbjkw1/Logo-Tourisme11.jpg" alt="logo région Hauts-de-France"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/vzfDp26/logo6.jpg" alt="logo de l'entreprise Norauto"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/sCNF16c/Logo-Tourisme12.jpg" alt="logo THE P"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/TvFhqZ6/logo7.jpg" alt="logo de l'opérateur Bouygues"/>
         </mj-column>
       </mj-group>
       <mj-group width="50%">
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/TkLdSDV/Logo-Tourisme13.jpg" alt="logo Team Break immersive games"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/1fmQhDB/logo8.jpg" alt="logo de l'enseigne Intermarché"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/m0tzZDw/Logo-Tourisme14.jpg" alt="logo voyages autour de nous"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/1JtDdjZ/logo10.jpg" alt="logo de l'association G2R"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/qBQ9H6X/Logo-Tourisme15.jpg" alt="logo DK PARK"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/r5CSJTZ/logo9.jpg" alt="logo de l'enseigne Boulanger"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/PWDs9MH/Logo-Tourisme16.jpg" alt="logo B Bladia"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/1nyt9QW/logo1.jpg" alt="logo de l'enseigne Carrefour"/>
+        </mj-column>
+      </mj-group>
+      <mj-group width="50%">
+        <mj-column width="25%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/PCdy14J/logo2.jpg" alt="logo de l'entreprise Levi's strauss"/>
+        </mj-column>
+        <mj-column width="25%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/9Zn8sFY/logo3.jpg" alt="logo de l'enseigne l'incroyable"/>
+        </mj-column>
+        <mj-column width="25%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/5nT0VG5/logo5.jpg" alt="logo de l'entreprise agro-alimentaire Danone "/>
+        </mj-column>
+        <mj-column width="25%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/3frZQSL/logo4.jpg" alt="logo de l'enseigne SNIPES"/>
         </mj-column>
       </mj-group>
     </mj-section>
