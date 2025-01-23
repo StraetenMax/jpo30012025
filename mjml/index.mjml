@@ -63,7 +63,7 @@
     <mj-section mj-class="bg+11" padding="0">
       <mj-column>
         <mj-spacer height="20px" container-background-color="#efefef"></mj-spacer>
-        <mj-image padding="25px 20px 0 20px" align="left" width="153px" src="https://i.ibb.co/ZGht1kv/logo-EHotellerie.png" alt="logo Ecosup Hôtellerie"/>
+        <mj-image padding="25px 20px 0 20px" align="left" width="153px" src="https://i.ibb.co/CvXDTv5/logo-Hotellerie-Blanc.png" alt="logo Ecosup Hôtellerie blanc "/>
         <mj-text padding="10px 20px 0 20px" mj-class="c+1 T+3" letter-spacing="-1px">Ecosup Hôtellerie vous ouvre ses Portes !</mj-text>
         <mj-text padding="10px 20px 0 20px" mj-class="T400 cT+1">{{ contact.PRENOM }}, après nos échanges sur le salon de l'Étudiant à Lille, nous vous invitons à découvrir notre campus :</mj-text>
         <mj-text padding="2px 20px" mj-class="T400 cT+1">- Visite guidée de notre établissement,</mj-text>
