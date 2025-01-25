@@ -52,33 +52,24 @@ mjml
                 }
             }
     //- Body
-    mj-body(background-color='#efefef' width="650px")
+    mj-body(background-color='#f2f2f2' width="650px")
         //- content
         block content
         //- bloc header
         block header
             include ../includes/supveto/_header
-        //- bloc article Supveto
-            block imgSupveto
-            include ../includes/supveto/_imgSupveto
-        //- bloc signature Christian
-            block signChristian
-            include ../includes/supveto/_signChristian
         //- bloc formations
         block formations
             include ../includes/supveto/_formations-02
-        //- bloc argumentaires formations
-        block arg
-            include ../includes/supveto/_arg
-        //- bloc syrendre
-        block cTa
-            include ../includes/supveto/_cTa
-        //- bloc partenaires Assurance
-            block sponsors
-            include ../includes/supveto/_sponsors
         //- bloc partenaires Assurance
         block partenaires
             include ../includes/supveto/_partenaires
+        //- bloc syrendre
+        block cTa
+            include ../includes/supveto/_cTa
+        //- bloc argumentaires formations
+        block arg
+            include ../includes/supveto/_arg
         //- bloc footer
         block footer
-            include ../includes/supveto/_footer 
+            include ../includes/_footer 
