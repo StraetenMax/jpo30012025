@@ -53,7 +53,7 @@ mjml
                 }
             }
     //- Body
-    mj-body(background-color='#efefef' width="650px")
+    mj-body(background-color='#f2f2f2' width="650px")
         //- content
         block content
         //- bloc header
@@ -68,18 +68,18 @@ mjml
         //- bloc formations
         block formations
             include ../includes/aepe/_formations-02
-        //- bloc argumentaires formations
-        block arg
-            include ../includes/aepe/_arg
+        //- bloc partenaires aepe
+        block partenaires
+            include ../includes/aepe/_partenaires
         //- bloc syrendre
         block cTa
             include ../includes/aepe/_cTa
         //- bloc partenaires aepe
             block sponsors
             include ../includes/aepe/_sponsors
-        //- bloc partenaires aepe
-        block partenaires
-            include ../includes/aepe/_partenaires
+        //- bloc argumentaires formations
+        block arg
+            include ../includes/aepe/_arg
         //- bloc footer
         block footer
-            include ../includes/aepe/_footer 
+            include ../includes/_footer 
