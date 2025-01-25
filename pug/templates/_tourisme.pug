@@ -24,9 +24,9 @@ mjml
             //- couleurs modifiables
             mj-class(name="cT+1" color="#14141f" border-color="#14141f")/
             mj-class(name="cT+0" color="#626262")/
+            //- couleurs black/
             mj-class(name="c-0" color="#1F3C90")/
             mj-class(name="bg-0" background-color="#1F3C90")/
-            //-mj-class(name="bg-0" background-color="#684092")/
             mj-class(name="c+11" color="#787FBD")/
             mj-class(name="c+1" color="#20274F")/
             mj-class(name="bg+1" background-color="#20274F")/
@@ -53,33 +53,24 @@ mjml
                 }
             }
     //- Body
-    mj-body(background-color='#efefef' width="650px")
+    mj-body(background-color='#f2f2f2' width="650px")
         //- content
         block content
         //- bloc header
         block header
             include ../includes/tourisme/_header
-        //- bloc article Tourisme
-            block imgAssurance
-            include ../includes/tourisme/_imgAssurance
-        //- bloc signature Christian
-            block signChristian
-            include ../includes/tourisme/_signChristian
         //- bloc formations
         block formations
             include ../includes/tourisme/_formations-02
-        //- bloc argumentaires formations
-        block arg
-            include ../includes/tourisme/_arg
-        //- bloc syrendre
-        block cTa
-            include ../includes/tourisme/_cTa
-        //- bloc partenaires Assurance
-            block sponsors
-            include ../includes/tourisme/_sponsors
         //- bloc partenaires Assurance
         block partenaires
             include ../includes/tourisme/_partenaires
+        //- bloc syrendre
+        block cTa
+            include ../includes/tourisme/_cTa
+        //- bloc argumentaires formations
+        block arg
+            include ../includes/tourisme/_arg
         //- bloc footer
         block footer
-            include ../includes/tourisme/_footer 
+            include ../includes/_footer 
