@@ -18,8 +18,11 @@
         }
     ]
 
-mj-section(background-color="#ffffff" padding="20px 60px 40px 60px") 
-    mj-group(width="280px")
+mj-section(background-color="#ffffff" padding="20px")
+    mj-column(width="450px")
+        mj-text(align="center" padding="0" mj-class="T+2-300 cT+1") Illustrations d'entreprises accueillant nos étudiants en stage ou en apprentissage
+mj-section(background-color="#ffffff" padding="0px 30px 40px 30px") 
+    mj-group(width="300px")
         each logo in logosList1
             mj-column(width="25%" padding="4px")
                 mj-image(padding="0" border="none" fluid-on-mobile="true" width="150px" src=logo.image alt=logo.alt)/
