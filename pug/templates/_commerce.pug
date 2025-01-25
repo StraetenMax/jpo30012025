@@ -51,30 +51,24 @@ mjml
                 }
             }
     //- Body
-    mj-body(background-color='#efefef' width="650px")
+    mj-body(background-color='#f2f2f2' width="650px")
         //- content
         block content
         //- bloc header
         block header
             include ../includes/commerce/_header
-        //- bloc article Assurance
-            block imgAssurance
-            include ../includes/commerce/_imgAssurance
-        //- bloc signature Christian
-            block signChristian
-            include ../includes/assurance/_signChristian
         //- bloc formations
         block formations
             include ../includes/commerce/_formations-02
-        //- bloc argumentaires formations
-        block arg
-            include ../includes/commerce/_arg
-        //- bloc syrendre
-        block cTa
-            include ../includes/commerce/_cTa
         //- bloc partenaires Commerce
         block partenaires
             include ../includes/commerce/_partenaires
+        //- bloc syrendre
+        block cTa
+            include ../includes/commerce/_cTa
+        //- bloc certificateurs formations
+        block arg
+            include ../includes/commerce/_arg
         //- bloc footer
         block footer
-            include ../includes/commerce/_footer 
+            include ../includes/_footer 
