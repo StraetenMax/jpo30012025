@@ -52,33 +52,24 @@ mjml
                 }
             }
     //- Body
-    mj-body(background-color='#efefef' width="650px")
+    mj-body(background-color='#f2f2f2' width="650px")
         //- content
         block content
         //- bloc header
         block header
             include ../includes/sm/_header
-        //- bloc article Secrétaire médical
-            block imgSm
-            include ../includes/sm/_imgsm
-        //- bloc signature Christian
-            block signChristian
-            include ../includes/sm/_signChristian
         //- bloc formations
         block formations
             include ../includes/sm/_formations-02
-        //- bloc argumentaires formations
-        block arg
-            include ../includes/sm/_arg
-        //- bloc syrendre
-        block cTa
-            include ../includes/sm/_cTa
-        //- bloc partenaires
-            block sponsors
-            include ../includes/sm/_sponsors
         //- bloc partenaires Assurance
         block partenaires
             include ../includes/sm/_partenaires
+        //- bloc syrendre
+        block cTa
+            include ../includes/sm/_cTa
+        //- bloc argumentaires formations
+        block arg
+            include ../includes/sm/_arg
         //- bloc footer
         block footer
-            include ../includes/sm/_footer 
+            include ../includes/_footer 
