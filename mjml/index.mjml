@@ -191,14 +191,17 @@
     </mj-section>
     <mj-section background-color="#cccccc" padding="10px 20px">
       <mj-group width="450px">
-        <mj-column width="33.333333%" vertical-align="middle">
-          <mj-image padding="0" border="0" width="120px" align="center" src="https://i.ibb.co/HGs67PM/lg-AGEA112024.png" alt="logo AGEA (Agent Général d'Assurance)"/>
+        <mj-column width="25%" vertical-align="middle" padding="10px">
+          <mj-image padding="0" border="0" width="100px" align="center" src="https://i.ibb.co/FgxXSyj/Logo-Atlasjpo12142024.png" alt="logo Atlas Opco"/>
         </mj-column>
-        <mj-column width="33.333333%" vertical-align="middle">
+        <mj-column width="25%" vertical-align="middle" padding="10px">
+          <mj-image padding="0" border="0" width="100px" align="center" src="https://i.ibb.co/HGs67PM/lg-AGEA112024.png" alt="logo AGEA (Agent Général d'Assurance)"/>
+        </mj-column>
+        <mj-column width="25%" vertical-align="middle" padding="10px">
           <mj-image padding="0" border="0" width="100px" align="center" src="https://i.ibb.co/9WmCPHs/lg-Grafton112024.png" alt="logo Graphton recrutement"/>
         </mj-column>
-        <mj-column width="33.333333%" vertical-align="middle">
-          <mj-image padding="0" border="0" width="50px" align="center" src="https://i.ibb.co/MhjdcT8/Logo-BNIculturebusiness.png" alt="logo BNI culture business"/>
+        <mj-column width="25%" vertical-align="middle" padding="10px">
+          <mj-image padding="0" border="0" width="90px" align="center" src="https://i.ibb.co/MhjdcT8/Logo-BNIculturebusiness.png" alt="logo BNI culture business"/>
         </mj-column>
       </mj-group>
     </mj-section>
