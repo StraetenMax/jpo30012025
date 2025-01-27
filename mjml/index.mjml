@@ -66,10 +66,10 @@
         <mj-spacer height="20px" container-background-color="#f2f2f2"></mj-spacer>
         <mj-image padding="25px 20px 0 20px" align="left" width="153px" src="https://i.ibb.co/18LWQj8/logo-ESante.png" alt="logo Ecosup Santé"></mj-image>
         <mj-text padding="10px 20px 0 20px" mj-class="c+1 T+3" letter-spacing="-1px">Ecosup Santé vous ouvre ses Portes !</mj-text>
-        <mj-text padding="10px 20px 0 20px" mj-class="T400 cT+1">{{ contact.PRENOM }}, tu n'as pas pu assister à notre journée portes ouvertes samedi dernier ? Pas de souci ! EcoSup Santé organise une nouvelle session ce jeudi en fin d'après-midi. Rejoins-nous pour découvrir:</mj-text>
-        <mj-text padding="2px 20px" mj-class="T400 cT+1">- Une visite guidée de notre établissement,</mj-text>
-        <mj-text padding="2px 20px" mj-class="T400 cT+1">- Une rencontre avec les responsables pédagogiques et les intervenants professionnels,</mj-text>
-        <mj-text padding="2px 20px" mj-class="T400 cT+1">- Une élaboration du mode de financement.</mj-text>
+        <mj-text padding="10px 20px 0 20px" mj-class="T400 cT+0"><span style="font-weight:700;color:#1a1a1a;">{{ contact.PRENOM }}</span>, vous n'avez pas pu assister à notre journée portes ouvertes samedi dernier ? Pas de souci! <span style="font-weight:700;color:1a1a1a;">EcoSup Santé</span> organise une nouvelle session ce jeudi en fin d'après-midi. Rejoignez-nous pour:</mj-text>
+        <mj-text padding="2px 20px" mj-class="T400 cT+0">- Une <span style="font-weight:700;color:#1a1a1a;">visite guidée</span> de notre établissement,</mj-text>
+        <mj-text padding="2px 20px" mj-class="T400 cT+0">- Une <span style="font-weight:700;color:#1a1a1a;">rencontre</span> avec les responsables pédagogiques et les intervenants professionnels,</mj-text>
+        <mj-text padding="2px 20px" mj-class="T400 cT+0">- Une élaboration du mode de financement.</mj-text>
         <mj-button padding="20px 20px 25px 20px" mj-class="T700 bg+11"><span style="text-transform:uppercase;">Nocturne Portes Ouvertes</span> jeudi 30 Janvier de 17h à 19h</mj-button>
         <mj-spacer height="20px" container-background-color="#ffffff"></mj-spacer>
       </mj-column>
@@ -83,17 +83,17 @@
         <mj-image padding="0" border="0" fluid-on-mobile="true" src="https://i.ibb.co/ZVJyhHk/AEPEinitiale.jpg" alt="formation AEPE Accompagnant(e) Éducatif Petite Enfance en initial"></mj-image>
         <mj-text align="right" padding="5px 10px" container-background-color="#005d95" color="#ffffff" mj-class="T-1" text-transform="uppercase">Formation Initiale</mj-text>
         <mj-text align="left" padding="12px 10px 5px 10px" container-background-color="#ffec80" mj-class="T+2-300 cT+1"><span style="font-weight:700">CAP</span> Accompagnant(e) Éducatif Petite Enfance</mj-text>
-        <mj-text align="left" padding="0px 10px" container-background-color="#ffec80" mj-class="T400 cT+0">- Accessible à tous,</mj-text>
-        <mj-text align="left" padding="0px 10px" container-background-color="#ffec80" mj-class="T400 cT+0">- Durée : <span style="font-weight:700;color:#1a1a1a;">1 an</span>,</mj-text>
-        <mj-text align="left" padding="0px 10px 32px 10px" container-background-color="#ffec80" mj-class="T400 cT+0">- Formation finançable intégralement ou en partie avec le CPF.</mj-text>
+        <mj-text align="left" padding="0px 10px" container-background-color="#ffec80" mj-class="T400 cT+0"><i class="fa-regular fa-circle-check" style="font-family:FontAwesome;color:#005d95;font-size:12px;line-height:20px;vertical-align:middle"></i>&nbsp;Accessible à tous,</mj-text>
+        <mj-text align="left" padding="0px 10px" container-background-color="#ffec80" mj-class="T400 cT+0"><i class="fa-regular fa-circle-check" style="font-family:FontAwesome;color:#005d95;font-size:12px;line-height:20px;vertical-align:middle"></i>&nbsp;Durée : <span style="font-weight:700;color:#1a1a1a;">1 an</span>,</mj-text>
+        <mj-text align="left" padding="0px 10px 32px 10px" container-background-color="#ffec80" mj-class="T400 cT+0"><i class="fa-regular fa-circle-check" style="font-family:FontAwesome;color:#005d95;font-size:12px;line-height:20px;vertical-align:middle"></i>&nbsp;Formation prise en charge par l'étudiant ou par un organisme extérieur.</mj-text>
       </mj-column>
       <mj-column background-color="#ffffff" width="50%" vertical-align="top" padding="10px">
         <mj-image padding="0" border="0" fluid-on-mobile="true" src="https://i.ibb.co/vBnTZWM/AEPEapprentissage.jpg" alt="formation AEPE Accompagnant(e) Éducatif Petite Enfance en apprentissage"></mj-image>
         <mj-text align="right" padding="5px 10px" container-background-color="#005d95" color="#ffffff" mj-class="T-1" text-transform="uppercase">Formation en Apprentissage</mj-text>
         <mj-text align="left" padding="12px 10px 5px 10px" container-background-color="#ffec80" mj-class="T+2-300 cT+1"><span style="font-weight:700;">CAP</span> Accompagnant(e) Éducatif Petite Enfance</mj-text>
-        <mj-text align="left" padding="0px 10px" container-background-color="#ffec80" mj-class="T400 cT+0">- Accessible à tous, </mj-text>
-        <mj-text align="left" padding="0px 10px" container-background-color="#ffec80" mj-class="T400 cT+0">- Durée : <span style="font-weight:700;color:#1a1a1a;">1 an</span>,</mj-text>
-        <mj-text align="left" padding="0px 10px 52px 10px" container-background-color="#ffec80" mj-class="T400 cT+0">- Formation gratuite et rémunérée.</mj-text>
+        <mj-text align="left" padding="0px 10px" container-background-color="#ffec80" mj-class="T400 cT+0"><i class="fa-regular fa-circle-check" style="font-family:FontAwesome;color:#005d95;font-size:12px;line-height:20px;vertical-align:middle"></i>&nbsp;Accessible à tous, </mj-text>
+        <mj-text align="left" padding="0px 10px" container-background-color="#ffec80" mj-class="T400 cT+0"><i class="fa-regular fa-circle-check" style="font-family:FontAwesome;color:#005d95;font-size:12px;line-height:20px;vertical-align:middle"></i>&nbsp;Durée : <span style="font-weight:700;color:#1a1a1a;">1 an</span>,</mj-text>
+        <mj-text align="left" padding="0px 10px 72px 10px" container-background-color="#ffec80" mj-class="T400 cT+0"><i class="fa-regular fa-circle-check" style="font-family:FontAwesome;color:#005d95;font-size:12px;line-height:20px;vertical-align:middle"></i>&nbsp;Formation gratuite et rémunérée.</mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding="20px">
