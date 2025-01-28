@@ -1,7 +1,7 @@
 
 <mjml>
   <mj-head>
-    <mj-title>JPO du 30 janvier 2025 Supveto Lille</mj-title>
+    <mj-title>JPO du 30 janvier 2025 Ecosup Hôtellerie</mj-title>
     <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&amp;display=swap"></mj-font>
     <mj-font name="fontAwesome" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
     <mj-raw>
@@ -25,19 +25,19 @@
       <mj-class name="L" align="left" border-style="solid" border-width="0.75px" width="80px" padding="10px 0"></mj-class>
       <mj-class name="cT+1" color="#1a1a1a"/>
       <mj-class name="cT+0" color="#4d4d4d"/>
-      <mj-class name="c-0" color="#00B36E"/>
-      <mj-class name="bg-0" background-color="#00B36E"/>
-      <mj-class name="c+11" color="#008A56"/>
-      <mj-class name="c+1" color="#114222"/>
-      <mj-class name="bg+1" background-color="#114222"/>
-      <mj-class name="bg+11" background-color="#008A56"/>
+      <mj-class name="c-0" color="#C21718"/>
+      <mj-class name="bg-0" background-color="#C21718"/>
+      <mj-class name="c+11" color="#f9d2d2"/>
+      <mj-class name="c+1" color="#74151E"/>
+      <mj-class name="bg+1" background-color="#74151E"/>
+      <mj-class name="bg+11" background-color="#f9d2d2"/>
     </mj-attributes>
     <mj-breakpoint width="480px"></mj-breakpoint>
     <mj-style>
        .bg-rollover-01:hover td, .bg-rollover-01:hover a{
-           background-color: #114222 !important;
+           background-color: #74151E !important;
            color: #ffffff !important;
-           border: 1px solid #114222 !important;
+           border: 1px solid #74151E !important;
       }
       
       .text-rollover:hover td, .text-rollover:hover a{
@@ -45,7 +45,7 @@
       }
       
        .bg-rollover-02:hover td, .bg-rollover-02:hover a{
-           background-color: #114222 !important;
+           background-color: #74151E !important;
       }
       
        @media(max-width:480px){
@@ -61,17 +61,17 @@
         <mj-text align="center"><a style="color:#626262;font-size:10px;font-weight:500;line-height:12px" href="{{ mirror}}">Voir la version en ligne</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a style="color:#626262;font-size:10px;font-weight:500;line-height:12px;" href="{{ unsubscribe }}">Se désinscrire de la liste de diffusion</a></mj-text>
       </mj-column>
     </mj-section>
-    <mj-section mj-class="bg-0" padding="0">
+    <mj-section mj-class="bg+11" padding="0">
       <mj-column>
-        <mj-spacer height="36px" container-background-color="#f2f2f2"></mj-spacer>
-        <mj-image padding="30px 20px 0 20px" align="left" width="153px" src="https://i.ibb.co/Jsh5VZ7/let-Emailling-08.jpg" alt="logo Supveto"></mj-image>
-        <mj-text padding="10px 20px 0 20px" mj-class="c+1 T+3" letter-spacing="-1px">Supveto vous ouvre ses Portes !</mj-text>
-        <mj-text padding="10px 20px 0 20px" mj-class="T400 cT+1"><span style="font-weight:700;">{{ contact.PRENOM }}</span>, vous n'avez pas pu assister à notre journée portes ouvertes samedi dernier&nbsp;? Pas de souci&nbsp;! <span style="font-weight:700;">Supveto</span> organise une nouvelle session ce jeudi en fin d'après-midi. Rejoignez-nous pour&nbsp;:</mj-text>
+        <mj-spacer height="21px" container-background-color="#f2f2f2"></mj-spacer>
+        <mj-image padding="25px 20px 0 20px" align="left" width="153px" src="https://i.ibb.co/ZGht1kv/logo-EHotellerie.png" alt="logo Ecosup Hôtellerie "/>
+        <mj-text padding="10px 20px 0 20px" mj-class="c+1 T+3" letter-spacing="-1px">Ecosup Hôtellerie vous ouvre ses Portes !</mj-text>
+        <mj-text padding="10px 20px 0 20px" mj-class="T400 cT+1"><span style="font-weight:700;">{{ contact.PRENOM }}</span>, vous n'avez pas pu assister à notre journée portes ouvertes samedi dernier&nbsp;? Pas de souci&nbsp;! <span style="font-weight:700;">Ecosup Hôtellerie</span> organise une nouvelle session ce jeudi en fin d'après-midi. Rejoignez-nous pour&nbsp;:</mj-text>
         <mj-text padding="2px 20px" mj-class="T400 cT+1">- Une <span style="font-weight:700;">visite guidée</span> de notre établissement,</mj-text>
-        <mj-text padding="2px 20px" mj-class="T400 cT+1">- Une <span style="font-weight:700;">Rencontre</span> avec les responsables pédagogiques et les intervenants professionnels,</mj-text>
+        <mj-text padding="2px 20px" mj-class="T400 cT+1">- Une <span style="font-weight:700;">rencontre</span> avec les responsables pédagogiques et intervenants professionnels,</mj-text>
         <mj-text padding="2px 20px" mj-class="T400 cT+1">- Une élaboration du mode de financement.</mj-text>
-        <mj-button padding="30px 20px" mj-class="T700 bg+1"><span style="text-transform:uppercase;">Nocturne Portes Ouvertes</span> jeudi 30 Janvier de 17h à 19h</mj-button>
-        <mj-spacer height="37px" container-background-color="#ffffff"></mj-spacer>
+        <mj-button padding="20px 20px 25px 20px" mj-class="T700 bg+1"><span style="text-transform:uppercase;">Nocturne Portes Ouvertes</span> jeudi 30 Janvier de 17h à 19h</mj-button>
+        <mj-spacer height="19px" container-background-color="#ffffff"></mj-spacer>
       </mj-column>
       <mj-column>
         <mj-image padding="0" border="0" fluid-on-mobile="true" src="https://i.ibb.co/CmC3qss/affiche-Jpo30012025.jpg" alt="affiche de la jpo du jeudi 30 janvier 2025"></mj-image>
@@ -80,74 +80,116 @@
     </mj-section>
     <mj-section background-color="#ffffff" padding="20px">
       <mj-column background-color="#ffffff" width="50%" vertical-align="top" padding="10px">
-        <mj-image padding="0" border="0" fluid-on-mobile="true" src="https://i.ibb.co/SfXKF9L/jpo02-Supveto30012025.jpg" alt="Chat soigné par l'Auxiliaire de Service Vétérinaire avant de passer sous les mains du vétérinaire"></mj-image>
-        <mj-text align="right" padding="5px 10px" container-background-color="#114222" color="#ffffff" mj-class="T-1" text-transform="uppercase">Formation Initiale</mj-text>
-        <mj-text align="left" padding="12px 10px 5px 10px" container-background-color="#00B36E" mj-class="T+2-300 cT+1"><span style="font-weight:700;">ASV</span> Auxiliaire de Service Vétérinaire</mj-text>
-        <mj-text align="left" padding="0px 10px" container-background-color="#00B36E" mj-class="T400 cT+0"><i class="fa-regular fa-circle-check" style="font-family:FontAwesome;color:#114222;font-size:12px;line-height:20px;"></i>&nbsp;Post-Bac,</mj-text>
-        <mj-text align="left" padding="0px 10px" container-background-color="#00B36E" mj-class="T400 cT+0"><i class="fa-regular fa-circle-check" style="font-family:FontAwesome;color:#114222;font-size:12px;line-height:20px;"></i>&nbsp;Durée : <span style="font-weight:700;color:#1a1a1a;">24 mois</span>,</mj-text>
-        <mj-text align="left" padding="0px 10px 22px 10px" container-background-color="#00B36E" mj-class="T400 cT+0"><i class="fa-regular fa-circle-check" style="font-family:FontAwesome;color:#114222;font-size:12px;line-height:20px;"></i>&nbsp;Formation prise en charge par l'étudiant ou par un organisme extérieur.</mj-text>
+        <mj-image padding="0" border="0" fluid-on-mobile="true" src="https://i.ibb.co/7GpF1Ys/HotMan.jpg" alt="formation MAN Mise à Niveau Hôtellerie"></mj-image>
+        <mj-text align="right" padding="5px 10px" container-background-color="#74151E" color="#ffffff" mj-class="T-1" text-transform="uppercase">Formation Initiale</mj-text>
+        <mj-text align="left" padding="12px 10px 5px 10px" container-background-color="#f9d2d2" mj-class="T+2-300 cT+1"><span style="font-weight:700">MAN</span> Mise à Niveau Hôtellerie Restauration</mj-text>
+        <mj-text align="left" padding="0 10px" container-background-color="#f9d2d2" mj-class="T400 cT+0"><i class="fa-regular fa-circle-check" style="font-family:FontAwesome;color:#74151E;font-size:12px;line-height:20px;"></i>&nbsp;Post-Bac,</mj-text>
+        <mj-text align="left" padding="0 10px" container-background-color="#f9d2d2" mj-class="T400 cT+0"><i class="fa-regular fa-circle-check" style="font-family:FontAwesome;color:#74151E;font-size:12px;line-height:20px;"></i>&nbsp;Durée : <span style="font-weight:700;color:#1a1a1a;">1 an</span>,</mj-text>
+        <mj-text align="left" padding="0 10px" container-background-color="#f9d2d2" mj-class="T400 cT+0"><i class="fa-regular fa-circle-check" style="font-family:FontAwesome;color:#74151E;font-size:12px;line-height:20px;"></i>&nbsp;Plus : <span style="font-weight:700;color:#1a1a1a;">Bourse Ecosup</span>,</mj-text>
+        <mj-text align="left" padding="0 10px 32px 10px" container-background-color="#f9d2d2" mj-class="T400 cT+0"><i class="fa-regular fa-circle-check" style="font-family:FontAwesome;color:#74151E;font-size:12px;line-height:20px;"></i>&nbsp;Formation prise en charge par l'étudiant.</mj-text>
       </mj-column>
       <mj-column background-color="#ffffff" width="50%" vertical-align="top" padding="10px">
-        <mj-image padding="0" border="0" fluid-on-mobile="true" src="https://i.ibb.co/dWcFC35/jpo01-Supveto30012025.jpg" alt="Chien et chat sont observés avant d'être soignés"></mj-image>
-        <mj-text align="right" padding="5px 10px" container-background-color="#114222" color="#ffffff" mj-class="T-1" text-transform="uppercase">Formation en Apprentissage</mj-text>
-        <mj-text align="left" padding="12px 10px 5px 10px" container-background-color="#00B36E" mj-class="T+2-300 cT+1"><span style="font-weight:700;">Bachelor</span> Chargé(e) de Gestion et Management en Structure animalière</mj-text>
-        <mj-text align="left" padding="0px 10px" container-background-color="#00B36E" mj-class="T400 cT+0"><i class="fa-regular fa-circle-check" style="font-family:FontAwesome;color:#114222;font-size:12px;line-height:20px;"></i>&nbsp;Post-Bac+2,</mj-text>
-        <mj-text align="left" padding="0px 10px" container-background-color="#00B36E" mj-class="T400 cT+0"><i class="fa-regular fa-circle-check" style="font-family:FontAwesome;color:#114222;font-size:12px;line-height:20px;"></i>&nbsp;Durée : <span style="font-weight:700;color:#1a1a1a;">18 mois</span>,</mj-text>
-        <mj-text align="left" padding="0px 10px 32px 10px" container-background-color="#00B36E" mj-class="T400 cT+0"><i class="fa-regular fa-circle-check" style="font-family:FontAwesome;color:#114222;font-size:12px;line-height:20px;"></i>&nbsp;Formation gratuite et rémunérée.</mj-text>
+        <mj-image padding="0" border="0" fluid-on-mobile="true" src="https://i.ibb.co/Vg67PWN/jpo02-Hotellerie30012025.jpg" alt="formation BTS Management en Hôtellerie / Restauration"></mj-image>
+        <mj-text align="right" padding="5px 10px" container-background-color="#74151E" color="#ffffff" mj-class="T-1" text-transform="uppercase">Formation en Apprentissage</mj-text>
+        <mj-text align="left" padding="12px 10px 5px 10px" container-background-color="#f9d2d2" mj-class="T+2-300 cT+1"><span style="font-weight:700">BTS</span> Management de l'Hôtellerie - Restauration</mj-text>
+        <mj-text align="left" padding="0 10px" container-background-color="#f9d2d2" mj-class="T400 cT+0"><i class="fa-regular fa-circle-check" style="font-family:FontAwesome;color:#74151E;font-size:12px;line-height:20px;"></i>&nbsp;Post-Bac,</mj-text>
+        <mj-text align="left" padding="0 10px" container-background-color="#f9d2d2" mj-class="T400 cT+0"><i class="fa-regular fa-circle-check" style="font-family:FontAwesome;color:#74151E;font-size:12px;line-height:20px;"></i>&nbsp;Durée : <span style="font-weight:700;color:#1a1a1a;">2 ans</span>,</mj-text>
+        <mj-text align="left" padding="0 10px" container-background-color="#f9d2d2" mj-class="T400 cT+0"><i class="fa-regular fa-circle-check" style="font-family:FontAwesome;color:#74151E;font-size:12px;line-height:20px;"></i>&nbsp;Plus : <span style="font-weight:700;color:#1a1a1a;">Diplôme reconnue par l'État</span>,</mj-text>
+        <mj-text align="left" padding="0 10px 52px 10px" container-background-color="#f9d2d2" mj-class="T400 cT+0"><i class="fa-regular fa-circle-check" style="font-family:FontAwesome;color:#74151E;font-size:12px;line-height:20px;"></i>&nbsp;Formation gratuite et rémunérée.</mj-text>
+      </mj-column>
+      <mj-column background-color="#ffffff" width="50%" vertical-align="top" padding="10px">
+        <mj-image padding="0" border="0" fluid-on-mobile="true" src="https://i.ibb.co/DDsSXLt/Hot-Bachelor.jpg" alt="formation Bachelor Chargé(e) de Gestion Commerciale en Hôtellerie"></mj-image>
+        <mj-text align="right" padding="5px 10px" container-background-color="#74151E" color="#ffffff" mj-class="T-1" text-transform="uppercase">Formation en Apprentissage</mj-text>
+        <mj-text align="left" padding="12px 10px 5px 10px" container-background-color="#f9d2d2" mj-class="T+2-300 cT+1"><span style="font-weight:700;">Bachelor</span> Chargé(e) de Gestion commerciale en Hôtellerie</mj-text>
+        <mj-text align="left" padding="0 10px" container-background-color="#f9d2d2" mj-class="T400 cT+0"><i class="fa-regular fa-circle-check" style="font-family:FontAwesome;color:#74151E;font-size:12px;line-height:20px;"></i>&nbsp;Post-Bac+2,</mj-text>
+        <mj-text align="left" padding="0 10px" container-background-color="#f9d2d2" mj-class="T400 cT+0"><i class="fa-regular fa-circle-check" style="font-family:FontAwesome;color:#74151E;font-size:12px;line-height:20px;"></i>&nbsp;Durée : <span style="font-weight:700;color:#1a1a1a;">1 an</span>,</mj-text>
+        <mj-text align="left" padding="0 10px" container-background-color="#f9d2d2" mj-class="T400 cT+0"><i class="fa-regular fa-circle-check" style="font-family:FontAwesome;color:#74151E;font-size:12px;line-height:20px;"></i>&nbsp;Plus : <span style="font-weight:700;color:#1a1a1a;">Travel Week</span>, semaine immersive en mobilité internationale,</mj-text>
+        <mj-text align="left" padding="0 10px 32px 10px" container-background-color="#f9d2d2" mj-class="T400 cT+0"><i class="fa-regular fa-circle-check" style="font-family:FontAwesome;color:#74151E;font-size:12px;line-height:20px;"></i>&nbsp;Formation gratuite et rémunérée.</mj-text>
+      </mj-column>
+      <mj-column background-color="#ffffff" width="50%" vertical-align="top" padding="10px">
+        <mj-image padding="0" border="0" fluid-on-mobile="true" src="https://i.ibb.co/PMdkP51/Hot-Mastere.jpg" alt="formation Mastère Manager des Orgnisations en Hôtellerie"></mj-image>
+        <mj-text align="right" padding="5px 10px" container-background-color="#74151E" color="#ffffff" mj-class="T-1" text-transform="uppercase">Formation en Apprentissage</mj-text>
+        <mj-text align="left" padding="12px 10px 5px 10px" container-background-color="#f9d2d2" mj-class="T+2-300 cT+1"><span style="font-weight:700;">Mastère</span> Manager des Organisations en Hôtellerie</mj-text>
+        <mj-text align="left" padding="0 10px" container-background-color="#f9d2d2" mj-class="T400 cT+0"><i class="fa-regular fa-circle-check" style="font-family:FontAwesome;color:#74151E;font-size:12px;line-height:20px;"></i>&nbsp;Post-Bac+3,</mj-text>
+        <mj-text align="left" padding="0 10px" container-background-color="#f9d2d2" mj-class="T400 cT+0"><i class="fa-regular fa-circle-check" style="font-family:FontAwesome;color:#74151E;font-size:12px;line-height:20px;"></i>&nbsp;Durée : <span style="font-weight:700;color:#1a1a1a;">2 ans</span>,</mj-text>
+        <mj-text align="left" padding="0 10px" container-background-color="#f9d2d2" mj-class="T400 cT+0"><i class="fa-regular fa-circle-check" style="font-family:FontAwesome;color:#74151E;font-size:12px;line-height:20px;"></i>&nbsp;Plus : <span style="font-weight:700;color:#1a1a1a;">Double certification internationale</span>,</mj-text>
+        <mj-text align="left" padding="0 10px 32px 10px" container-background-color="#f9d2d2" mj-class="T400 cT+0"><i class="fa-regular fa-circle-check" style="font-family:FontAwesome;color:#74151E;font-size:12px;line-height:20px;"></i>&nbsp;Formation gratuite et rémunérée.</mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding="20px">
       <mj-column width="450px">
-        <mj-text align="center" padding="0" mj-class="T+2-300 cT+1">Exemples d'entreprises accueillant nos étudiants en stage ou en apprentissage</mj-text>
+        <mj-text align="center" padding="0" mj-class="T+2-300 cT+1">Exemples d'entreprises accueillant nos étudiants en apprentissage</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#ffffff" padding="0px 30px 40px 30px"> 
-      <mj-group width="450px">
-        <mj-column width="20%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/QFWSt0w/logo-Supveto01.jpg" alt="logo de l'Hôpital vétérinaire des Laurentines"/>
+    <mj-section background-color="#ffffff" padding="0px 60px 40px 60px"> 
+      <mj-group width="50%">
+        <mj-column width="25%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/vz8Rrt2/LogoA12.jpg" alt="logo Fait Maison"/>
         </mj-column>
-        <mj-column width="20%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/bgqVSsD/logo-Supveto02.jpg" alt="logo Lux-Vet"/>
+        <mj-column width="25%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/z5ZgwTw/LogoA11.jpg" alt="logo de l'Hôtel l'Ermitage Gabtois"/>
         </mj-column>
-        <mj-column width="20%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/tbhMMH6/logo-Supveto03.jpg" alt="logo clinique vétérinaire de la Porte des Weppes"/>
+        <mj-column width="25%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/L85ZfG1/LogoA10.jpg" alt="logo de la chaîne d'Hôtels Best Western"/>
         </mj-column>
-        <mj-column width="20%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/NLgM4B7/logo-Supveto04.jpg" alt="logo centre hospitalier Vétérinaire Pommery"/>
-        </mj-column>
-        <mj-column width="20%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/BjzPxXP/logo-Supveto10.jpg" alt="logo clinique vétérinaire"/>
+        <mj-column width="25%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/n6nKRBn/LogoA9.jpg" alt="logo Small Luxury Hotels"/>
         </mj-column>
       </mj-group>
-      <mj-group width="450px">
-        <mj-column width="20%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/PwXYWZC/logo-Supveto05.jpg" alt="logo de la clinique vétérinaire de Linselles"/>
+      <mj-group width="50%">
+        <mj-column width="25%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/VHwDR7d/LogoA13.jpg" alt="logo de la chaîne de restauration les 3 Brasseurs"/>
         </mj-column>
-        <mj-column width="20%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/jrZ9y7j/logo-Supveto06.jpg" alt="logo de la LPA"/>
+        <mj-column width="25%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/pRydwkm/LogoA1.jpg" alt="logo du groupe Accord"/>
         </mj-column>
-        <mj-column width="20%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/mFnZNt1/logo-Supveto07.jpg" alt="logo clinique vétérinaire"/>
+        <mj-column width="25%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/8z2m91y/LogoA2.jpg" alt="logo du groupe Global Hôtel Alliance"/>
         </mj-column>
-        <mj-column width="20%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/r6kmn81/logo-Supveto08.jpg" alt="logo de BioTopia"/>
+        <mj-column width="25%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/gw0vV3g/LogoA3.jpg" alt="logo l'hôtel l'Arbre voyageur"/>
         </mj-column>
-        <mj-column width="20%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/s2pZHFf/logo-Supveto09.jpg" alt="logo AniCura"/>
+      </mj-group>
+      <mj-group width="50%">
+        <mj-column width="25%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/QXFVhNW/LogoA4.jpg" alt="logo de l'hôtel Carlton de Lille"/>
+        </mj-column>
+        <mj-column width="25%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/zr8TQyS/LogoA5.jpg" alt="logo de l'Hôtel Lille Europe HLE"/>
+        </mj-column>
+        <mj-column width="25%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/DKZDvtz/LogoA6.jpg" alt="logo de l'Hôtel Restaurant du Couvent des Minimes"/>
+        </mj-column>
+        <mj-column width="25%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/VYL89kZ/LogoA7.jpg" alt="logo de la Sodexo"/>
+        </mj-column>
+      </mj-group>
+      <mj-group width="50%">
+        <mj-column width="25%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/ZXr5mLx/LogoA8.jpg" alt="logo du Najeti - Hôtel Lille Nord"/>
+        </mj-column>
+        <mj-column width="25%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/qNZP5dP/LogoA14.jpg" alt="logo Hôtel Moustache"/>
+        </mj-column>
+        <mj-column width="25%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/PGss0H7/Hotellerie21.jpg" alt="logo du restaurant le Septentrion"/>
+        </mj-column>
+        <mj-column width="25%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/JrbkKBG/Hotellerie20.jpg" alt="logo de l'Hôtel Le Bristol"/>
         </mj-column>
       </mj-group>
     </mj-section>
     <mj-section background-color="#ffffff" padding="0px 20px">
       <mj-column width="450px">
-        <mj-text align="center" padding="0" mj-class="T+2-300 cT+1">Pour préparer notre rencontre</mj-text>
+        <mj-text align="center" padding="0" mj-class="T+2-300 cT+1">Pour préparer notre rencontre !</mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding="20px 20px 0 20px">
       <mj-column width="244px">
-        <mj-button align="center" vertical-align="middle" padding="0 0 20px 0" border="2px solid #008A56" border-radius="3px" inner-padding="14px 20px" background-color="transparent" css-class="bg-rollover-01 text-rollover" mj-class="T700 c+11" href="https://www.google.fr/maps/dir/+50.72123+,+3.15686"><i class="fa-solid fa-location-dot bg-rollover-01" style="font-family:FontAwesome;font-size:20px;line-height:20px;vertical-align:middle"></i> &nbsp;&nbsp;nous trouver</mj-button>
+        <mj-button align="center" vertical-align="middle" padding="0 0 20px 0" border="2px solid #C21718" border-radius="3px" inner-padding="14px 20px" background-color="transparent" css-class="bg-rollover-01 text-rollover" mj-class="T700 c-0" href="https://www.google.fr/maps/dir/+50.72123+,+3.15686"><i class="fa-solid fa-location-dot bg-rollover-01" style="font-family:FontAwesome;font-size:20px;line-height:20px;vertical-align:middle"></i> &nbsp;&nbsp;nous trouver</mj-button>
       </mj-column>
       <mj-column width="244px">
-        <mj-button align="center" vertical-align="middle" padding="0 0 20px 0" border-radius="3px" inner-padding="16px 22px" css-class="bg-rollover-02" mj-class="T700 bg+11" href="https://ecosup-assurance.fr/wp-content/uploads/2025/01/SCI1dbqC.ics"><i class="fa-regular fa-calendar-days" style="font-family:FontAwesome;color:#ffffff;font-size:20px;line-height:20px;vertical-align:middle"></i> &nbsp;&nbsp;ajouter à mon agenda</mj-button>
+        <mj-button align="center" vertical-align="middle" padding="0 0 20px 0" border-radius="3px" inner-padding="16px 22px" css-class="bg-rollover-02" mj-class="T700 bg-0" href="https://ecosup-assurance.fr/wp-content/uploads/2025/01/SCI1dbqC.ics"><i class="fa-regular fa-calendar-days" style="font-family:FontAwesome;color:#ffffff;font-size:20px;line-height:20px;vertical-align:middle"></i> &nbsp;&nbsp;ajouter à mon agenda</mj-button>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding-top="0" padding-right="20px" padding-left="20px">
@@ -157,7 +199,7 @@
     </mj-section>
     <mj-section mj-class="bg+1" padding="0 20px">
       <mj-column>
-        <mj-text align="center" padding="14px 0" mj-class="T+2-700" color="#ffffff" letter-spacing="2px"><a style="text-decoration:none;color:#ffffff;" href="http://supveto-lille.fr" target="_blank">www.supveto-lille.fr</a></mj-text>
+        <mj-text align="center" padding="14px 0" mj-class="T+2-700" color="#ffffff" letter-spacing="2px"><a style="text-decoration:none;color:#ffffff;" href="https://ecosup-hotellerie.fr" target="_blank">www.ecosup-hotellerie.fr</a></mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#d9d9d9" padding="20px 10px">
@@ -173,11 +215,11 @@
       </mj-group>
       <mj-group width="60%">
         <mj-column width="33.333333%" vertical-align="top" padding="10px">
-          <mj-image align="center" padding="0" border="0" width="100px" src="https://i.ibb.co/wWQzSdT/Plan-de-travail-1jpo12142024.png" alt="logo Formatives"></mj-image>
+          <mj-image align="center" padding="0" border="0" width="100px" src="https://i.ibb.co/wWQzSdT/Plan-de-travail-1jpo12142024.png" alt="logo Formatives, certificateur"></mj-image>
           <mj-spacer height="10px"></mj-spacer>
         </mj-column>
         <mj-column width="33.333333%" vertical-align="top" padding="10px">
-          <mj-image align="center" padding="0" border="0" width="70px" src="https://i.ibb.co/Zc6WLhF/logo-Ipamjpo12142024.png" alt="logo IPAM"></mj-image>
+          <mj-image align="center" padding="0" border="0" width="80px" src="https://i.ibb.co/4KBjqnQ/logo-Fedejpo12142024.png" alt="logo FEDE, Federation for EDucation"></mj-image>
           <mj-spacer height="10px"></mj-spacer>
         </mj-column>
         <mj-column width="33.333333%" vertical-align="top" padding="10px">
