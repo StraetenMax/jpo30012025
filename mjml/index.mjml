@@ -66,11 +66,10 @@
         <mj-spacer height="20px" container-background-color="#f2f2f2"></mj-spacer>
         <mj-image padding="25px 20px 0 20px" align="left" width="153px" src="https://i.ibb.co/x7Dh8V0/logo-ETourisme.png" alt="logo Ecosup Tourisme"></mj-image>
         <mj-text padding="10px 20px 0 20px" mj-class="c+1 T+3" letter-spacing="-1px">Ecosup Tourisme vous ouvre ses Portes !</mj-text>
-        <mj-text padding="10px 20px 0 20px" mj-class="T400 cT+1">{{ contact.PRENOM }}, après nos échanges sur le salon de l'Étudiant à Lille, nous vous invitons à découvrir notre campus :</mj-text>
-        <mj-text padding="2px 20px" mj-class="T400 cT+1">- Visite guidée de notre établissement</mj-text>
-        <mj-text padding="2px 20px" mj-class="T400 cT+1">- Rencontre avec les responsables pédagogiques et les intervenants professionnels</mj-text>
-        <mj-text padding="2px 20px" mj-class="T400 cT+1">- Échange avec les étudiants de la promotion</mj-text>
-        <mj-text padding="2px 20px" mj-class="T400 cT+1">- Élaboration du plan de financement</mj-text>
+        <mj-text padding="10px 20px 0 20px" mj-class="T400 cT+0"><span style="font-weight:700;color:#1a1a1a;">{{ contact.PRENOM }}</span>, vous n'avez pas pu assister à notre journée portes ouvertes samedi dernier&nbsp;? Pas de souci&nbsp;! <span style="font-weight:700;color:#1a1a1a;">EcoSup Tourisme</span> organise une nouvelle session ce jeudi en fin d'après-midi. Rejoignez-nous pour&nbsp;:</mj-text>
+        <mj-text padding="2px 20px" mj-class="T400 cT+0">- Une <span style="font-weight:700;color:#1a1a1a;">visite guidée</span> de notre établissement,</mj-text>
+        <mj-text padding="2px 20px" mj-class="T400 cT+0">- Une <span style="font-weight:700;color:#1a1a1a;">rencontre</span> avec les responsables pédagogiques et les intervenants professionnels,</mj-text>
+        <mj-text padding="2px 20px" mj-class="T400 cT+0">- Une élaboration du mode de financement.</mj-text>
         <mj-button padding="20px 20px 25px 20px" mj-class="T700 bg+1"><span style="text-transform:uppercase;">Nocturne Portes Ouvertes</span> jeudi 30 Janvier de 17h à 19h</mj-button>
         <mj-spacer height="20px" container-background-color="#ffffff"></mj-spacer>
       </mj-column>
